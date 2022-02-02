@@ -1,0 +1,1 @@
+!function(){for(var e=/.*\?.*/,t=document.getElementsByTagName("link"),n=(document.getElementsByTagName("script"),0);n<t.length;n++){var a=t[n],r=a.href;e.test(r)?a.href=r+"&"+Date.now():a.href=r+"?"+Date.now()}}();

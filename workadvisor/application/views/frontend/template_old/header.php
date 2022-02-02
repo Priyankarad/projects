@@ -1,0 +1,153 @@
+<?php defined('BASEPATH') OR exit('No direct script access allowed'); ?>
+<!doctype html>
+<html lang="en">
+   <head>
+      <!-- Required meta tags -->
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+      <!-- Bootstrap CSS -->
+      <link rel="icon" href="<?php echo base_url();?>assets/images/fav.png" type="image/gif" sizes="18x12">
+      <link rel="stylesheet" href="<?php echo base_url();?>assets/css/bootstrap.min.css">
+      <link rel="stylesheet" href="<?php echo base_url();?>assets/css/style.css">
+      <link rel="stylesheet" href="<?php echo base_url(); ?>assets/css/style2.css">
+      <link rel="stylesheet" href="<?php echo base_url();?>assets/css/animate.css">
+<!--       <link rel="stylesheet" href="<?php echo base_url();?>assets/css/rating.css"> -->
+      <link rel="stylesheet" href="<?php echo base_url();?>assets/css/hover-min.css">
+      <link rel="stylesheet" href="<?php echo base_url();?>assets/css/font-awesome.min.css">
+      <link rel="stylesheet" href="<?php echo base_url();?>assets/css/owl.carousel.min.css">
+      <link rel="stylesheet" href="<?php echo base_url();?>assets/css/stripe.css">
+      <link href="<?php echo base_url(); ?>assets/admin/css/dataTables.bootstrap.min.css" rel="stylesheet">
+      <script src="<?php echo base_url(); ?>assets/admin/js/jquery.dataTables.min.js"></script>
+      <script src="<?php echo base_url(); ?>assets/admin/js/dataTables.bootstrap.min.js"></script>
+      <title>Workadvisor</title>
+	  	  <script> var site_url='<?php echo site_url(); ?>'; </script>
+   </head>
+   <body>
+      <!--enu_section section strat-->
+      <section class="menu_section">
+         <div class="container">
+            <div class="row">
+               <div class="col-sm-6 col-5">
+                  <div class="write_riwe">
+                     <?php 
+                        $email=isset($this->session->userdata['userData']['email'])?$this->session->userdata['userData']['email']:'';
+                        if(!empty($email) && isset($email)){
+                           $url = base_url().'search/searchresults';
+                        }else{
+                           $url = base_url().'login';
+                        }
+                     ?>
+                     <a href="<?php echo $url;?>" class="log_in_cjnn">Write a review</a>
+                  </div>
+               </div>
+               <div class="col-sm-6 col-7 in_cjnn">
+                  <div class="write_riwe flot_right">
+                     <?php if ($this->session->userdata('loggedIn')){ ?>
+                     <a href="<?php echo site_url(); ?>logout" class="font-srt">Logout</a>
+                     <a href="<?php echo site_url('profile'); ?>">Profile</a>
+                     <?php  }else{  ?>
+                     <a href="<?php echo site_url(); ?>login" class="log_in sf">Login</a>
+                     <a href="<?php echo site_url(); ?>register">Create your Profile</a>
+                     <?php  }
+                        ?>
+                  </div>
+              </div>
+            </div>
+         </div>
+      </section>
+      <!--enu_section section strat-->
+      <!--banner_section section strat-->
+      <section class="banner_section">
+         <div class="back_reound">
+            <div class="container">
+               <!--second row start-->
+               <form method="post" action="<?php echo site_url('search/search/') ?>" onsubmit="return checkBlank()">
+                  <div class="contnt_widht">
+                     <div class="row">
+                        <div class="logoss">
+                           <img src="<?php echo base_url();?>assets/images/logowhit.png">
+                        </div>
+                        <div class="col-md-10 col-xs-12 pd_right">
+						<div class="row">
+							<div class="col-lg-8 col-md-7 col-xs-12 pdright0H">
+							   <div class="city_con1">
+								  <img src="<?php echo base_url();?>assets/images/Shape.png">
+								  <input type="text" id="searchTags" name="searchTags" placeholder="Looking for: Barista, Cashier, Chef">
+                          <!-- What you are looking for -->
+								  <div id="tagList" style="top:80px;"></div>
+							   </div>
+							</div>
+							<div class="col-lg-4 col-md-5 col-xs-12 pdleft0H">
+							   <div class="city_contnt">
+								  <img src="<?php echo base_url();?>assets/images/addres.png">
+								  <input type="text"  onFocus="geolocate()" id="autocomplete" name="city" placeholder="City/Zip">
+                          <i class="fa fa-location-arrow locality" aria-hidden="true" onclick="currLocation()" title="Current Location"></i>
+								  <input type="hidden" name="street_number" value="" id="street_number" >
+								  <input type="hidden" name="locality" value="" id="locality" >
+								  <input type="hidden" name="postal_code" value="" id="postal_code" >
+								  <input type="hidden" name="country" value="" id="country" >
+								  <input type="hidden" name="state" value="" id="administrative_area_level_1" >
+								  <input type="hidden" name="route" value="" id="route" >
+							   </div>
+							</div>
+						 </div>
+                        </div>
+                        <div class="col-md-2 col-xs-12 pd_left">
+                        <button type="submit" class="find">Find<i class="fa fa-search"></i></button>
+                        </div>
+                     </div>
+                  </div>
+               </form>
+               <!--second row start-->
+            </div>
+         </div>
+      </section>
+      <!--main_page section strat-->
+      <!--header section strat-->
+      <section id="site_header">
+         <div class="food_menu">
+            <nav class="navbar navbar-default">
+               <div class="container">
+                  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                     <span class="navbar-toggler-icon"></span>
+                     </button>
+                     <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                        <ul class="navbar-nav">
+                           <li class="nav-item hvr-pulse-grow active">
+                              <a class="nav-link" href="#">
+                              <img src="<?php echo base_url();?>assets/images/1.png" class="fl_left">
+                              Food</a>
+                           </li>
+                           <li class="nav-item hvr-pulse-grow">
+                              <img src="<?php echo base_url();?>assets/images/5.png" class="fl_left topvzx">
+                              <a class="nav-link" href="#">Drink</a>
+                           </li>
+                           <li class="nav-item hvr-pulse-grow">
+                              <a class="nav-link" href="#">
+                              <img src="<?php echo base_url();?>assets/images/3.png" class="fl_left ">Household</a>
+                           </li>
+                           <li class="nav-item hvr-pulse-grow">
+                              <a class="nav-link" href="#">
+                              <img src="<?php echo base_url();?>assets/images/2.png" class="fl_left">
+                              Medical</a>
+                           </li>
+                           <li class="nav-item hvr-pulse-grow">
+                              <a class="nav-link" href="#">
+                              <img src="<?php echo base_url();?>assets/images/4.png" class="fl_left">
+                              Fashion</a>
+                           </li>
+                           <li class="nav-item hvr-pulse-grow">
+                              <a class="nav-link" href="#">
+                              <img src="<?php echo base_url();?>assets/images/6.png" class="fl_left xbn"></a>
+                           </li>
+                        </ul>
+                     </div>
+                  </nav>
+               </div>
+               <!-- /.container-fluid -->
+            </nav>
+         </div>
+      </section>
+      <!-- hm_banner start -->
+      <!--main_page section close-->

@@ -1,0 +1,4424 @@
+.main-header {
+    display: block;
+    width: 100%;
+    position: fixed;
+    background: #fff;
+    z-index: 999;
+    transition: all .5s;
+    top: 0;
+    left: 0;
+    right: 0
+}
+
+.headerbg {
+    width: 100%;
+    background-color: #fff
+}
+
+section.BannerSection {
+    padding-top: 70px
+}
+
+.our_menus .main_menu li a {
+    letter-spacing: .4px;
+    transition: all .5s;
+    padding: 10px!important;
+    color: #424242!important;
+    border-bottom: 2px solid transparent;
+    position: relative;
+    text-transform: uppercase;
+    font-size: 13px;
+    font-family: Muli;
+    font-weight: 400
+}
+
+.navbar .main_menu li a:hover {
+    color: #942424!important
+}
+
+.navbar .main_menu li a.active {
+    color: #942424!important
+}
+
+ul.IconHeader {
+    display: inherit;
+    margin-top: 12px;
+    margin-left: 55px
+}
+
+ul.IconHeader li a i {
+    font-size: 17px
+}
+
+ul#menu-main-menu>li {
+    position: relative;
+    cursor: pointer
+}
+
+.main_menu .sub-menu {
+    width: 212px;
+    padding: 0;
+    border: 1px solid #ccc;
+    display: none;
+    position: absolute;
+    left: -33%;
+    top: 27px;
+    z-index: 2;
+    background-color: #fff;
+    -webkit-box-shadow: 0 3px 5px 0 rgba(0, 0, 0, .2);
+    box-shadow: 0 3px 5px 0 rgba(0, 0, 0, .2);
+    border-radius: 3px
+}
+
+ul#menu-main-menu ul.sub-menu:after {
+    height: 0;
+    width: 0;
+    border: solid transparent;
+    position: absolute;
+    bottom: 100%;
+    left: 27%;
+    content: " ";
+    pointer-events: none;
+    margin-left: 46px;
+    border-color: hsla(0, 0%, 80%, 0);
+    border-bottom-color: #ccc;
+    border-width: 6px
+}
+
+body.page.page-id-5 .main_menu li:nth-child(3)>.sub-menu {
+    left: -80%
+}
+
+body.page.page-id-5 .main_menu li:nth-child(5)>.sub-menu {
+    left: -72%!important
+}
+
+body.page.page-id-5 .main_menu li:nth-child(6)>.sub-menu {
+    left: -72%!important
+}
+
+body.page.page-id-5 .main_menu li:nth-child(3)>.sub-menu.kerobokanUL {
+    left: -101%
+}
+
+.main_menu li:nth-child(3)>.sub-menu.kerobokanUL {
+    left: -101%
+}
+
+.main_menu li:nth-child(3)>.sub-menu {
+    left: -80%
+}
+
+.main_menu li:nth-child(5)>.sub-menu {
+    left: -75%
+}
+
+.main_menu li:nth-child(6)>.sub-menu {
+    left: -76%
+}
+
+.main_menu .sub-menu li {
+    padding: 5px
+}
+
+.main_menu>li:hover>ul.sub-menu,
+.main_menu>li>ul.sub-menu>li:hover>ul.sub-menu {
+    display: block
+}
+
+.main_menu .sub-menu li a {
+    padding: 5px 7px!important;
+    color: #000!important;
+    transition: .7s ease-in-out;
+    font-size: 12px!important;
+    font-family: Muli!important
+}
+
+ul.sub-menu li {
+    padding-bottom: 10px
+}
+
+.our_menus .subMenu a {
+    font-size: 10px!important;
+    font-family: Muli!important;
+    border-bottom: 1px solid #f1f1f1!important
+}
+
+.banner_bg {
+    min-height: 100vh;
+    background-repeat: no-repeat!important;
+    background-position: 50% 70%!important;
+    background-size: cover!important;
+    display: flex;
+    flex-direction: column;
+    justify-content: center
+}
+
+.banner-slide.owl-carousel .owl-dots {
+    display: block;
+    position: absolute;
+    bottom: 2%;
+    left: 45%
+}
+
+.banner-slide.owl-theme .owl-nav {
+    display: none
+}
+
+.banner-slide.owl-theme .owl-dots .owl-dot.active span,
+.banner-slide.owl-theme .owl-dots .owl-dot:hover span {
+    background: #942424;
+    border: 1px solid #942424;
+    transition: all .5s
+}
+
+.owl-drag .owl-dots .owl-dot span {
+    background: #942424
+}
+
+.bannercontent {
+    padding: 30px 0;
+    text-align: center
+}
+
+.bannercontent h1 {
+    line-height: 35px;
+    line-height: 2.5rem;
+    padding: 15px 40px;
+    background: 0 0;
+    text-shadow: 0 2px 2px rgba(0, 0, 0, .8);
+    font-weight: 300;
+    font-size: 30px;
+    font-size: 34.27px;
+    color: #fff;
+    text-align: center;
+    text-transform: uppercase
+}
+
+.Luxerycontent h2 {
+    font-size: 28px;
+    margin-bottom: 0;
+    margin-top: 20px;
+    color: #888;
+    text-align: center
+}
+
+.Luxerycontent h4 {
+    font-size: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: #888;
+    text-align: center;
+    padding: 0
+}
+
+.Lpara {
+    margin-bottom: 20px;
+    margin-top: 20px
+}
+
+.LuxeryUl {
+    text-align: center
+}
+
+.LuxeryUl li {
+    display: inline-block
+}
+
+.LuxeryUl li img {
+    width: 100%
+}
+
+.LuxeryUl li:nth-child(1) img {
+    width: 100%;
+    max-width: 95px
+}
+
+.LuxeryUl li:nth-child(2) img {
+    width: 100%;
+    max-width: 135px
+}
+
+.LuxeryUl li:nth-child(3) img {
+    width: 100%;
+    max-width: 154px
+}
+
+.LuxeryUl li:nth-child(4) img {
+    width: 100%;
+    max-width: 143px
+}
+
+.BannerFrom {
+    padding: 20px 20px 14px;
+    border: 0 none;
+    display: inline-block;
+    margin-top: 20px;
+    border-radius: 5px;
+    background-color: rgba(0, 0, 0, .75);
+    width: 100%
+}
+
+.ui-datepicker {
+    width: 17em;
+    padding: .2em .2em 0;
+    display: none;
+    background: #2f99b4
+}
+
+.ui-datepicker .ui-datepicker-title {
+    margin: 0 2.3em;
+    line-height: 1.8em;
+    text-align: center;
+    color: #fff;
+    background: #fff
+}
+
+.ui-datepicker table {
+    width: 100%;
+    font-size: .7em;
+    border-collapse: collapse;
+    font-family: verdana;
+    margin: 0 0 .4em;
+    color: #000;
+    background: #fff
+}
+
+.ui-datepicker td {
+    border: 0;
+    padding: 1px
+}
+
+.ui-datepicker td a,
+.ui-datepicker td span {
+    display: block;
+    padding: .8em;
+    text-align: right;
+    text-decoration: underline
+}
+
+.BannerInput input::placeholder {
+    width: 190px;
+    height: 40px;
+    min-width: 0!important;
+    padding: 10px 10px 9px;
+    border: 1px solid #ccc;
+    position: relative;
+    border-radius: 5px;
+    text-align: left;
+    text-transform: uppercase;
+    background-color: transparent;
+    z-index: 100
+}
+
+.BannerInput input::placeholder {
+    text-transform: uppercase;
+    font-family: Muli
+}
+
+.BannrGrup {
+    position: relative
+}
+
+.BannrGrup span {
+    color: #313335;
+    position: absolute;
+    top: 0;
+    right: 10px;
+    font-size: 21px;
+    z-index: 0;
+    height: calc(2.25rem + 2px);
+    line-height: calc(2.25rem + 2px)
+}
+
+.BannrGrup span.lnr-users {
+    right: 23px
+}
+
+.form-group.BannrGrup select {
+    width: 100%;
+    background: 0 0;
+    position: relative;
+    z-index: 9;
+    color: grey
+}
+
+.SubBtn {
+    background: #942424 none;
+    color: #fff!important;
+    text-shadow: none;
+    font-size: 0;
+    width: 100%;
+    max-width: 123px;
+    display: inline-block;
+    padding: 19px 30px;
+    margin-bottom: 0;
+    font-weight: 400;
+    line-height: 1.42857143;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    border-radius: 5px;
+    float: right
+}
+
+.BannrGrup span.lnr-magnifier {
+    right: 19px;
+    color: #fff;
+    top: 2px
+}
+
+.logot {
+    padding: 0 0
+}
+
+a.navbar-brand.logot {
+    width: 100%;
+    max-width: 160px
+}
+
+a.navbar-brand.logot img {
+    width: 100%
+}
+
+.BannrGrup span.lnr.lnr-location {
+    right: 43px
+}
+
+.smiyakBox {
+    text-align: center
+}
+
+.SymakImg p {
+    text-transform: uppercase;
+    margin-bottom: 8px
+}
+
+.SimyakPara p {
+    line-height: 22px;
+    font-size: 16px
+}
+
+.SemiyakSec hr {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: 0;
+    border-top: 1px solid #eee
+}
+
+.Symkheading h1 {
+    color: #942424!important;
+    text-align: center!important;
+    margin-top: 0!important;
+    margin-bottom: 0!important;
+    font-size: 30px!important;
+    text-transform: uppercase
+}
+
+.Vinner_text h4 {
+    display: inline-block
+}
+
+.Vinner_text h4 span {
+    font-size: 20px;
+    color: #942424
+}
+
+.btn-cta {
+    font-size: 14px;
+    background: #942424 none;
+    color: #fff!important;
+    text-shadow: none;
+    float: right
+}
+
+.btn-cta:focus,
+.btn-cta:hover {
+    background-color: #6b1a1a;
+    color: #fff;
+    text-decoration: underline;
+    transition: background-color ease-in .2s
+}
+
+.Vtext_section h6 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: #888;
+    font-size: 14px
+}
+
+.Vtext_section p {
+    line-height: 20px
+}
+
+.MainLoc .Kerbo {
+    margin-bottom: 18px;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 700;
+    font-size: 23px;
+    letter-spacing: .5px;
+    display: block;
+    color: #942424
+}
+
+.MainLoc {
+    margin-bottom: 60px
+}
+
+.MapButton a {
+    float: unset;
+    text-align: center;
+    display: block;
+    width: 100%;
+    max-width: 180px;
+    margin: 21px auto
+}
+
+.footer_section {
+    padding: 30px 0 25px;
+    background: #f7f7f7
+}
+
+section.footer {
+    border-top: 1px solid #d5d5d5
+}
+
+ul.nav-social>li {
+    display: inline
+}
+
+ul.nav-social>li a {
+    color: #aaa
+}
+
+ul.nav-social>li a:hover {
+    color: #942424
+}
+
+ul.nav-social li a img {
+    width: 100%;
+    max-width: 36px
+}
+
+.contact a>i {
+    font-size: 27px
+}
+
+.bankttranS_logo {
+    display: inline-block;
+    float: right
+}
+
+.contact a,
+.contact span {
+    color: #aaa;
+    position: relative;
+    top: -2px
+}
+
+.contact a:hover,
+.contact a:hover span {
+    color: #942424
+}
+
+.contact {
+    margin: 10px 0 10px 10px
+}
+
+.currency_selector {
+    margin: 4px 5px 4px 10px;
+    position: relative;
+    top: -7px;
+    display: inline-block;
+    margin-top: 13px
+}
+
+.selector {
+    background-color: #f7f7f7;
+    border: none
+}
+
+.all_rights {
+    float: right
+}
+
+.all_rights a {
+    color: #942424
+}
+
+.KerMap {
+    margin-top: 30px
+}
+
+.BannrGrup span.lnr.lnr-chevron-down-circle {
+    right: 21px
+}
+
+.BdBack {
+    background: #f6f6f6;
+    padding-bottom: 80px
+}
+
+section.ContactSection {
+    padding-top: 56px
+}
+
+.Symkheading {
+    text-align: center
+}
+
+.Symkheading {
+    padding: 6px 0;
+    background: #f6f6f6
+}
+
+.SymkheadingCol {
+    padding: 40px 20px;
+    background: #fff;
+    -webkit-box-shadow: 0 1px 2px 0 hsla(0, 0%, 42%, .2);
+    box-shadow: 0 1px 2px 0 hsla(0, 0%, 42%, .2)
+}
+
+.SymkheadingCol h1 {
+    font-size: 25px;
+    margin-bottom: 40px;
+    color: #888
+}
+
+.btn-send {
+    font-size: 14px;
+    background: 0 0!important;
+    color: #942424!important;
+    box-shadow: none;
+    padding: 6px 18px;
+    border: 2px solid #b5532a
+}
+
+.Tabslide .item {
+    height: 485px;
+    background-size: cover;
+    background-position: center
+}
+
+.Tabslide .owl-dots {
+    display: none
+}
+
+.Tabslide .owl-nav {
+    display: none
+}
+
+.TabHeading h1 {
+    color: #888;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 15px
+}
+
+.nav-pills .nav-link.active,
+.nav-pills .show>.nav-link {
+    background-color: transparent;
+    color: #942424
+}
+
+.ViaaTabul {
+    border-top: 2px solid #eee;
+    border-bottom: 2px solid #eee;
+    margin: 22px 0
+}
+
+.ViaaTabul>li {
+    background-color: transparent
+}
+
+.ViaaTabul>li:hover {
+    background-color: transparent
+}
+
+.ViaaTabul>li.active {
+    border-bottom-color: #942424!important
+}
+
+.ViaaTabul>li.active a {
+    color: #942424
+}
+
+.ViaaTabul>li a {
+    padding: 9px 10px 9px 30px;
+    text-transform: uppercase;
+    color: #888
+}
+
+.TabView {
+    text-align: center
+}
+
+.TabView a {
+    display: inline-block;
+    color: #942424;
+    padding-top: 10px
+}
+
+.TabView a span {
+    display: block
+}
+
+.TabHr {
+    margin-top: 40px;
+    margin-bottom: 40px
+}
+
+.SlpBld {
+    font-weight: 700
+}
+
+.RatesTable .rate-title {
+    color: #999;
+    font-weight: 700;
+    text-transform: uppercase
+}
+
+.RatesTable .rate-period {
+    color: #999;
+    font-size: 12px
+}
+
+ul.room-details-features li {
+    max-width: 45px;
+    margin-right: 14px;
+    width: 100%;
+    display: inline-block;
+    text-align: center
+}
+
+ul.room-details-features li span {
+    display: block
+}
+
+li.room-details-features__list-item small {
+    display: block
+}
+
+.TabCheck ul li {
+    position: relative;
+    padding-left: 30px
+}
+
+.TabCheck ul li img {
+    position: absolute;
+    left: -8px;
+    top: 0;
+    display: inline-block
+}
+
+.TabCheck ul li strong {
+    display: block
+}
+
+.SidebarFrom {
+    padding: 29px 20px;
+    position: sticky;
+    top: 55px;
+    background: #fff
+}
+
+.SubBtn {
+    font-size: 18px;
+    width: 100%;
+    max-width: unset;
+    padding: 6px 5px
+}
+
+.RatesShedTab h3 {
+    font-weight: 700;
+    font-size: 12px;
+    color: #888;
+    text-transform: uppercase
+}
+
+.OverContent {
+    height: 200px;
+    overflow: hidden
+}
+
+.OverContentUp {
+    height: auto
+}
+
+.TabView .TabViewHide {
+    display: none
+}
+
+section.VilaTab {
+    background: #f7f7f7
+}
+
+.RatesTable {
+    padding: 40px 20px;
+    background: #fff;
+    -webkit-box-shadow: 0 1px 2px 0 hsla(0, 0%, 42%, .2);
+    box-shadow: 0 1px 2px 0 hsla(0, 0%, 42%, .2)
+}
+
+.Keyfacts {
+    padding: 5px 20px;
+    background: #fff;
+    -webkit-box-shadow: 0 1px 2px 0 hsla(0, 0%, 42%, .2);
+    box-shadow: 0 1px 2px 0 hsla(0, 0%, 42%, .2)
+}
+
+.DescriptionTab {
+    padding: 3px 20px;
+    background: #fff;
+    -webkit-box-shadow: 0 1px 2px 0 hsla(0, 0%, 42%, .2);
+    box-shadow: 0 1px 2px 0 hsla(0, 0%, 42%, .2);
+    margin-top: 40px
+}
+
+.LocBox {
+    padding: 3px 20px;
+    background: #fff;
+    -webkit-box-shadow: 0 1px 2px 0 hsla(0, 0%, 42%, .2);
+    box-shadow: 0 1px 2px 0 hsla(0, 0%, 42%, .2);
+    margin-top: 40px
+}
+
+.tabGallery img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover
+}
+
+.ReviewImg img {
+    width: 100%
+}
+
+.ReviewImg {
+    margin-bottom: 30px
+}
+
+.fordis {
+    display: none
+}
+
+.pi-topsearch {
+    background: #e6e6e6;
+    padding: 10px 10px 10px 10px
+}
+
+.pi-listingsearch {
+    margin-top: 94px
+}
+
+.row.pdmain0>div {
+    padding: 0 3px
+}
+
+.pi-topsearch button.btn.SubBtn span {
+    position: static
+}
+
+.pi-topsearch .SubBtn {
+    padding: 8px 30px
+}
+
+.searchdate {
+    background: #fff!important
+}
+
+.form-group.BannrGrup {
+    margin: 0;
+    background: #fff
+}
+
+.pi-topsearch .BannrGrup span.lnr-users {
+    left: 15px;
+    right: inherit
+}
+
+.pi-topsearch select.form-control {
+    padding-left: 48px
+}
+
+.pi-mapfix iframe {
+    height: calc(100vh - 159px);
+    width: 100%
+}
+
+.pi-mainmaplist .row .col-md-5 {
+    padding-right: 0;
+    padding-left: 0
+}
+
+.pi-mappin span {
+    background: #fff;
+    font-size: 20px;
+    padding: 8px 10px;
+    color: #767676;
+    border-radius: 2px;
+    position: relative;
+    top: 11px;
+    right: -11px;
+    cursor: pointer
+}
+
+.pi-mainmaplist .row .col-md-7 {
+    padding-right: 0
+}
+
+button.pi-morefilter {
+    border: 1px solid #ccc;
+    border-radius: 0;
+    background: 0 0;
+    color: #666;
+    padding: 5px 13px
+}
+
+.pi-mainmaplist {
+    background: #f7f7f7
+}
+
+.pi-morefilter select {
+    background: #fff;
+    border: 1px solid #ccc;
+    padding: 7px;
+    margin-left: 15px
+}
+
+.pi-morefilter .form-group {
+    margin: 0
+}
+
+.pi-morefilter {
+    padding: 35px 42px 35px 0
+}
+
+.pi-mainlistimgs a {
+    display: inline-block;
+    height: 170px;
+    overflow: hidden;
+    position: relative
+}
+
+.pi-mainlistimgs a img {
+    height: 100%;
+    object-fit: cover
+}
+
+span.price__min-price {
+    font-size: 21px;
+    color: #fff
+}
+
+.price {
+    position: absolute;
+    background-color: #942424;
+    color: #fff!important;
+    bottom: 0;
+    right: 0;
+    padding: 8px 10px;
+    width: 156px;
+    text-align: right;
+    line-height: 15px
+}
+
+.price small span {
+    color: #fff!important
+}
+
+span.price__min-price {
+    font-size: 21px;
+    color: #fff
+}
+
+.pi-mainlistbtms h5 a {
+    color: #ca0202;
+    font-size: 14px;
+    font-weight: 700
+}
+
+.pi-mainlistbtms p a span {
+    color: #bbb;
+    letter-spacing: -.3px
+}
+
+.pi-mainlistbtms p {
+    position: relative;
+    top: -4px;
+    margin: 0
+}
+
+span.sqmsf {
+    font-size: 12px
+}
+
+.pi-mainlistbtms ul li span {
+    display: block
+}
+
+.pi-mainlistbtms ul li strong {
+    font-weight: 400;
+    position: relative;
+    top: -3px
+}
+
+.pi-mainlistbtms ul li {
+    color: grey;
+    text-align: center;
+    font-size: 10px;
+    display: inline-block;
+    padding-right: 2px
+}
+
+.show-on-map {
+    height: 40px;
+    width: 100%;
+    padding: 5px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 99;
+    color: #fff;
+    font-size: 14px;
+    box-shadow: inset 0 30px 20px -10px rgba(0, 0, 0, .5);
+    transition: all .5s;
+    visibility: hidden;
+    opacity: 0
+}
+
+.show-on-map span {
+    color: #fff;
+    position: relative;
+    top: 2px;
+    left: 2px
+}
+
+.pi-mainlisttop {
+    position: relative;
+    margin-bottom: 25px;
+    margin-top: 25px;
+    transition: all .5s
+}
+
+.pi-mainlisttop:hover .show-on-map {
+    visibility: visible;
+    opacity: 1
+}
+
+.pi-mainlist {
+    height: calc(100vh - 262px);
+    overflow-x: hidden;
+    overflow-y: auto;
+    padding-right: 25px
+}
+
+.form-group.BannrGrup.mb_20 {
+    margin-bottom: 15px
+}
+
+.galleryDBox img {
+    width: 100%
+}
+
+.galleryDBox {
+    margin-bottom: 15px
+}
+
+.FlorImg {
+    margin-bottom: 50px
+}
+
+.galleryvideo {
+    margin-bottom: 25px
+}
+
+.Chos04 h3 {
+    font-size: 22px;
+    color: grey;
+    padding-top: 22px;
+    margin-bottom: 0!important
+}
+
+.sbpad {
+    padding: 18px 6px;
+    cursor: pointer
+}
+
+.BtnImgB {
+    position: absolute;
+    top: 50px;
+    right: 0;
+    left: 0;
+    margin: 0 auto;
+    text-align: center;
+    display: block;
+    width: 80px
+}
+
+a.btn.btn-cta.srchsubBtn {
+    height: auto;
+    padding: 5px 9px;
+    font-size: 12px
+}
+
+span.lnr.lnr-magnifier.mangn2 {
+    right: 46px
+}
+
+.Sman {
+    display: inline-block
+}
+
+.BookBed {
+    background: #f3f3f3;
+    padding: 20px 20px;
+    border: 1px solid #cdc8c8
+}
+
+.RentalBook p {
+    text-align: right;
+    font-size: 22px;
+    color: #222
+}
+
+.chkBnIn {
+    display: inline-block
+}
+
+.EarlyCheck {
+    background: #8c8d8c;
+    padding: 3px 10px 0 10px
+}
+
+fieldset .SmallCheckout .EarlyCheck h1 {
+    color: #fff;
+    font-size: 18px;
+    margin-bottom: 5px;
+    display: inline-block
+}
+
+fieldset .SmallCheckout .EarlyCheck p {
+    display: inline;
+    text-transform: lowercase;
+    margin: 5px;
+    font-size: 13px
+}
+
+.EarlyCheck p {
+    color: #fff;
+    text-align: uppercase
+}
+
+.MoreItem {
+    margin: 0 0 20px;
+    border: 1px solid #ccc;
+    background-color: #f3f3f3;
+    box-shadow: 0 1px 2px 0 rgba(107, 107, 107, .2);
+    padding: 20px
+}
+
+.Agrh1 {
+    font-size: 13px!important
+}
+
+#signup {
+    width: 100%;
+    height: auto;
+    padding: 20px;
+    background: #fff;
+    margin: 80px auto;
+    position: relative;
+    min-height: 300px
+}
+
+#fieldsets {
+    padding: 20px;
+    box-sizing: border-box;
+    overflow: hidden
+}
+
+fieldset {
+    border: none;
+    padding: 10px 0;
+    transition: all .3s linear;
+    -webkit-transition: all .3s linear;
+    -moz-transition: all .3s linear;
+    -ms-transition: all .3s linear;
+    opacity: 0;
+    display: none
+}
+
+fieldset.current {
+    left: 20px;
+    opacity: 1;
+    display: block
+}
+
+fieldset.next {
+    left: 640px
+}
+
+.HideSubmit {
+    display: none;
+    border: none
+}
+
+#section-tabs {
+    font-size: .8em;
+    padding: 0;
+    font-weight: 700;
+    list-style: none;
+    text-transform: uppercase
+}
+
+#section-tabs li {
+    color: #a7a7a7;
+    cursor: not-allowed;
+    border-left: 1px solid #aaa;
+    text-decoration: none;
+    padding: 18px 6px;
+    box-sizing: border-box;
+    text-align: center;
+    font-weight: 700;
+    line-height: 30px;
+    background: #ddd;
+    position: relative;
+    margin-left: 0;
+    border: 1px solid #efefef;
+    border-bottom: 2px inset #ddd
+}
+
+#section-tabs li span {
+    color: #942424;
+    font-size: 30px
+}
+
+#section-tabs li.active {
+    color: #942424;
+    cursor: pointer
+}
+
+#section-tabs li:after {
+    content: "";
+    display: block;
+    margin-left: 0;
+    position: absolute;
+    left: 0;
+    top: 0
+}
+
+#section-tabs li.current {
+    opacity: 1;
+    background: #fff;
+    z-index: 999;
+    border-left: none
+}
+
+.btn1 {
+    border: none;
+    padding: 8px;
+    background: #942424;
+    cursor: pointer;
+    transition: all .3s;
+    -webkit-transition: all .3s;
+    -moz-transition: all .3s;
+    position: absolute;
+    bottom: -50px;
+    right: 20px;
+    color: #fff!important;
+    position: absolute;
+    bottom: -50px;
+    right: 34px;
+    letter-spacing: .5px;
+    text-transform: uppercase
+}
+
+#section-tabs span {
+    display: block
+}
+
+fieldset.current h1 {
+    color: #888;
+    font-size: 20px;
+    margin-bottom: 23px
+}
+
+.SummryBoxTo h1 {
+    color: #942424;
+    font-size: 25px;
+    margin-bottom: 6px;
+    text-transform: uppercase
+}
+
+.BsumClr {
+    color: #942424;
+    font-size: 25px;
+    margin-bottom: 5px
+}
+
+.SummryRw {
+    border-bottom: 1px solid #ddd;
+    padding: 10px 3px
+}
+
+.SumrryPils li a {
+    text-transform: uppercase;
+    font-size: 25px
+}
+
+.SummryRw h2 {
+    color: #888;
+    font-size: 14px;
+    font-weight: 700;
+    margin-bottom: 5px;
+    text-transform: uppercase
+}
+
+.SummryBoxTo ul li {
+    font-size: 12px;
+    color: #888;
+    margin-bottom: 4px
+}
+
+#fieldsets {
+    box-sizing: border-box;
+    overflow: hidden
+}
+
+.multisteps-mawjuuds fieldset h1 {
+    color: #888;
+    font-size: 20px;
+    margin-bottom: 23px
+}
+
+li.active.showbartopL {
+    opacity: .5
+}
+
+.bydefaultnone {
+    display: none
+}
+
+fieldset.showbartopR {
+    display: block;
+    opacity: 1
+}
+
+fieldset.showbartopR .click-new-hides {
+    display: none
+}
+
+fieldset.showbartopR .bydefaultnone {
+    display: block
+}
+
+.wpcf7-form-control-wrap.date-523 {
+    position: unset;
+    display: block
+}
+
+.wpcf7-form-control-wrap.date-363 {
+    position: unset;
+    display: block
+}
+
+.calInput input {
+    height: calc(2.25rem + 2px)
+}
+
+.BannerFrom.slideSel .form-control {
+    font-size: 13px;
+    color: #666;
+    position: relative;
+    z-index: 99;
+    background: 0 0;
+    cursor: pointer
+}
+
+.slideSel .BannrGrup span.lnr-magnifier {
+    left: 0;
+    right: 0
+}
+
+ul#menu-main-menu ul.sub-menu {
+    margin-left: 0
+}
+
+.FixedFrom {
+    position: absolute;
+    top: 40%;
+    left: 0;
+    right: 0;
+    z-index: 99
+}
+
+.pi-topsearch .SubBtn {
+    font-size: 3px;
+    padding: 8px 0 5px 0
+}
+
+.MainSharp ul li {
+    display: inline-block
+}
+
+.ReviewUl {
+    margin: 0 auto;
+    width: 100%;
+    text-align: center
+}
+
+.ReviewUl ul li {
+    display: inline-block;
+    width: 100%;
+    max-width: 123px;
+    margin: 0 auto
+}
+
+.ReviewCon {
+    margin-bottom: 23px
+}
+
+.ReviewCon p {
+    text-align: center
+}
+
+.ReviewUl a {
+    float: unset;
+    margin: 50px 0;
+    font-size: 24px!important
+}
+
+.ReviewUl ul li:first-child {
+    max-width: 100px
+}
+
+.BookReviewCon p {
+    color: #942424;
+    text-align: center;
+    font-size: 17px
+}
+
+.ReviewUl ul li:first-child {
+    max-width: 90px
+}
+
+.BookiImg img {
+    width: 100%
+}
+
+.Wrbtn2 {
+    float: none;
+    display: block;
+    margin-top: 17px
+}
+
+.BookiImg {
+    min-height: 235px
+}
+
+.BdBack.ReviwPage ul {
+    margin-bottom: 30px
+}
+
+.BookReviewCon {
+    margin-bottom: 25px
+}
+
+.BodyPoUp {
+    background: rgba(88, 82, 82, .65)
+}
+
+.BodyPoUp .modal-content {
+    opacity: .8
+}
+
+.BodyPoUp .modal-dialog {
+    max-width: 406px;
+    margin: 90px auto 38px auto
+}
+
+.popup-logo {
+    padding: 20px;
+    text-align: center;
+    width: 100%;
+    max-width: 399px;
+    margin: 0 auto
+}
+
+img.popup-logo-img {
+    width: 100%
+}
+
+h1.pop-header {
+    color: #797979;
+    text-align: center;
+    font-size: 21px;
+    font-weight: 400;
+    text-transform: uppercase;
+    line-height: 29px;
+    padding-top: 10px
+}
+
+ul.editable-items {
+    padding-left: 10px;
+    margin-top: 30px;
+    margin-bottom: 0;
+    font-size: .8em;
+    height: 136px;
+    overflow: auto
+}
+
+li.offer-benefit:before {
+    content: '';
+    height: 8px;
+    width: 8px;
+    background: gray;
+    position: relative;
+    display: block;
+    min-width: 8px;
+    margin-top: 8px;
+    margin-right: 10px
+}
+
+li.offer-benefit {
+    list-style: none;
+    color: #8c8d8c;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: row;
+    font-weight: 500;
+    font-size: 1.1em
+}
+
+.pop-up-cta {
+    width: 100%;
+    background: gray;
+    height: 50px;
+    color: #fff;
+    font-size: 25px;
+    font-weight: 400;
+    border: none;
+    display: block;
+    line-height: 50px;
+    cursor: pointer;
+    text-decoration: none;
+    transition: background .5s ease-in-out;
+    text-align: center
+}
+
+.ps-notes .footer-note {
+    font-size: 10px;
+    text-align: center;
+    display: block;
+    margin-bottom: 12px
+}
+
+.ps-notes {
+    margin-top: 24px
+}
+
+.BodyPoUp .modal-cross .close {
+    position: absolute;
+    right: 4px;
+    top: -5px;
+    z-index: 9;
+    cursor: pointer;
+    background: 0 0!important
+}
+
+.BodyPoUp .modal-cross .close span {
+    font-size: 49px;
+    font-family: inherit;
+    font-weight: 400
+}
+
+.BodyPoUp button.close:hover {
+    background: 0 0!important
+}
+
+.BodyPoUp button.close:focus {
+    background: 0 0!important;
+    border: none;
+    outline: 0
+}
+
+.menu-main-menu-container ul#menu-main-menu>.current-menu-item>a {
+    color: #942424!important
+}
+
+.form-group.BannrGrup span.lnr.lnr-map-marker {
+    right: 14px
+}
+
+img.bediconImg {
+    position: relative;
+    top: -3px;
+    width: 100%;
+    max-width: 21px;
+    right: 10px
+}
+
+body.page-id-5 section.BannerSection {
+    padding: 0
+}
+
+.our_menus {
+    padding: 0 25px
+}
+
+.bodybkf6 {
+    background: #f6f6f6
+}
+
+@media (min-width:1200px) {
+    section.ChoosStepSection .container {
+        max-width: 1240px
+    }
+}
+
+h1.bannercontent {
+    color: #fff;
+    text-shadow: 0 2px 2px rgba(0, 0, 0, .8)
+}
+
+.banner_bg::after {
+    content: "";
+    position: absolute;
+    background: rgba(0, 0, 0, .1);
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 0
+}
+
+.banner_bg {
+    position: relative;
+    z-index: 9
+}
+
+.MainLocNw a {
+    background: #942424;
+    color: #fff;
+    text-transform: uppercase;
+    display: block;
+    text-align: center;
+    margin: 22px 0;
+    padding: 10px 0;
+    transition: all .5s;
+    border-radius: 5px
+}
+
+.Vinner_text p {
+    line-height: 20px
+}
+
+.videoBkBtn a {
+    float: unset;
+    width: 100%
+}
+
+.MainLocNw a:hover {
+    color: #fff
+}
+
+.MainVilaNw {
+    margin-bottom: 25px
+}
+
+a.navbar-brand.logot span {
+    color: #942424;
+    text-transform: uppercase;
+    font-size: 27px;
+    display: none;
+    padding-left: 20px
+}
+
+.LocationContent ul li {
+    color: #888;
+    line-height: 22.2px
+}
+
+.LocFootP p strong {
+    display: block
+}
+
+.LocationContent {
+    margin-top: 25px
+}
+
+.MapofCon p {
+    margin: 0
+}
+
+.LocationContent p strong {
+    text-transform: uppercase;
+    letter-spacing: .5px
+}
+
+button,
+input[type=button],
+input[type=submit] {
+    background-color: #942424!important
+}
+
+ul.nav-pay li {
+    display: inline-block;
+    width: 100%;
+    max-width: 50px
+}
+
+ul.nav-pay li img {
+    width: 100%
+}
+
+.Semif8Bk {
+    background-color: #f8f8f8!important;
+    margin-top: 35px
+}
+
+body.page.page-id-5 {
+    background: #f8f8f8
+}
+
+ul#pills-tab span {
+    display: none
+}
+
+div#pills-tabContent>.mobiitem {
+    display: none
+}
+
+#availability-legend .legend-square {
+    width: 24px;
+    height: 24px;
+    border: 1px solid #ccc;
+    display: inline-block;
+    margin-left: 7px
+}
+
+div#availability-legend span {
+    position: relative;
+    top: -7px;
+    margin-left: 0;
+    color: #888
+}
+
+.unavailable.legend-square {
+    background: #daf3ee
+}
+
+div#availability-legend {
+    text-align: center
+}
+
+.AllAvblityBox .flatpickr-calendar.inline {
+    text-align: center;
+    left: 0;
+    right: 0;
+    margin: 0 auto
+}
+
+div#available {
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    display: block
+}
+
+div#available .ui-datepicker-inline {
+    text-align: center;
+    margin: 0 auto
+}
+
+select#radio_price {
+    width: 100%;
+    max-width: 150px
+}
+
+li.room-details-features__list-item img {
+    max-width: unset
+}
+
+select.selector.ftNselct {
+    width: 100%;
+    max-width: 113px;
+    color: #888;
+    display: block;
+    margin: 0 auto
+}
+
+.widget-content.ConSidWid p a {
+    color: #888
+}
+
+.MyreCap {
+    margin-bottom: 14px
+}
+
+.myconw7Btn input {
+    padding: 10px 37px 14px 37px!important;
+    letter-spacing: .5px;
+    font-size: 17px!important;
+    font-family: Muli
+}
+
+.bannercontent h1 {
+    margin-bottom: 0;
+    padding-bottom: 0
+}
+
+.semi_extra_con {
+    margin-bottom: 20px
+}
+
+.semi_extra_con .row {
+    margin-bottom: 20px
+}
+
+.videoBkBtn a {
+    float: unset;
+    width: 100%;
+    padding: 5px 5px 10px 6px;
+    font-size: 20px
+}
+
+.our_menus .main_menu li a span {
+    cursor: pointer
+}
+
+.LoderBook.hide {
+    width: 100%;
+    max-width: 120px;
+    text-align: center
+}
+
+.LoderBook.hide img {
+    position: fixed;
+    width: 100%;
+    max-width: 92px;
+    bottom: 14%;
+    text-align: center;
+    margin: 0 auto
+}
+
+.TabContactSide {
+    width: 100%;
+    background: #f7f7f7
+}
+
+.TabContactSide p {
+    text-align: center;
+    margin-top: 30px;
+    font-size: 15px
+}
+
+.highlight span {
+    background-color: #daf3ee!important;
+    color: #fff!important
+}
+
+.ui-state-disabled.highlight,
+.ui-widget-content .ui-state-disabled.highlight,
+.ui-widget-header .ui-state-disabled.highlight {
+    opacity: 1;
+    color: #000
+}
+
+.ui-state-disabled.highlight span {
+    color: #666
+}
+
+.ui-state-disabled.highlight span {
+    color: #bfbebe!important;
+    padding: 16px
+}
+
+tr a.ui-state-default:hover {
+    background: #942424!important;
+    color: #fff!important;
+    transition: all .5s
+}
+
+div#total_rupees span {
+    text-align: center;
+    display: block;
+    font-size: 16px!important;
+    color: ##942424!important
+}
+
+div#total_rupees {
+    text-align: center;
+    width: 100%;
+    margin-bottom: 10px
+}
+
+.AddedCheck .form-check {
+    border: 1px solid #942424;
+    text-transform: uppercase;
+    padding-left: 0;
+    padding-top: 0;
+    padding: 4px 8px;
+    border-radius: 4px;
+    display: inline-block
+}
+
+.AddedCheck label.form-check-label {
+    width: 100%;
+    padding-left: 18px;
+    text-align: center
+}
+
+.AddedCheck label.form-check-label input {
+    top: 8px
+}
+
+.AddedCheck.introAdChkNw {
+    background: #942424;
+    color: #fff
+}
+
+.DollorTabHide {
+    margin: 12px
+}
+
+.DollorTabHide select {
+    background: #f1f1f1
+}
+
+section.ChoosStepSection.onlyBooking100 {
+    padding-bottom: 100px
+}
+
+.tabGallery {
+    margin-bottom: 12px;
+    height: 155px;
+    display: block
+}
+
+form#booking .BannrGrup label {
+    position: absolute;
+    right: 21px;
+    top: 12px;
+    z-index: 0
+}
+
+fieldset.current {
+    border: none;
+    border-bottom: 1px solid #d8d8d8;
+    padding: 0 10px
+}
+
+.EarlyCheck p {
+    padding-bottom: 0;
+    margin-bottom: 5px;
+    text-transform: uppercase
+}
+
+form#booking .BannrGrup input {
+    padding: 8px;
+    background-color: transparent;
+    color: grey;
+    height: 38px
+}
+
+.booking_loader {
+    width: 60px;
+    height: 60px
+}
+
+.booking_loader img {
+    width: 100%
+}
+
+a.TrmsTlink {
+    color: #942424;
+    padding-left: 5px
+}
+
+button#SidConbtn a {
+    color: #fff
+}
+
+.introAdChkNw .form-check {
+    margin: 0
+}
+
+.introAdChkNw {
+    background: #942424;
+    color: #fff;
+    text-transform: uppercase;
+    padding-left: 0;
+    padding-top: 0;
+    padding: 7px 24px 8px 23px;
+    border-radius: 4px;
+    display: inline-block;
+    float: right;
+    margin-bottom: 8px;
+    font-weight: 400!important
+}
+
+.introAdChkNw span {
+    color: #fff
+}
+
+.checkbox_extra_checked {
+    display: inline-block
+}
+
+.check_availability_1 p {
+    margin-bottom: 0;
+    display: inline-block
+}
+
+.check_availability_1,
+.title-dates.dtpExt {
+    position: relative
+}
+
+.EditExtraBtn.minngus-editbtn button,
+.edit-nightsbtn {
+    font-weight: 400;
+    font-size: 15px;
+    border: 1px solid #942424!important;
+    background: 0 0!important;
+    color: #942424;
+    padding: 4px 15px;
+    border-radius: 5px;
+    float: right;
+    position: absolute;
+    top: 3px;
+    right: 0;
+    padding-bottom: 5px;
+    width: 115px
+}
+
+.EditExtraBtn.minngus-editbtn {
+    display: block!important
+}
+
+.title-dates.duration {
+    font-size: 14px;
+    color: #888;
+    font-family: Muli
+}
+
+.mobiitemStep {
+    display: none
+}
+
+.contFrom .form-group.BannrGrup {
+    margin-bottom: 15px
+}
+
+button.ToggleEditVila {
+    padding: 8px;
+    font-size: 12px;
+    letter-spacing: .5px
+}
+
+.SimyakPara small {
+    display: block
+}
+
+.nav-link:focus {
+    outline: 0
+}
+
+.ViaaTabul>li a:hover {
+    color: #942424
+}
+
+ul#pills-tab {
+    position: sticky;
+    top: 70px;
+    z-index: 9;
+    background: #f7f7f7
+}
+
+.page-id-797 section.BannerSection {
+    display: none
+}
+
+.WelContentBox {
+    text-align: center
+}
+
+.WelContentBox img {
+    padding: 20px 0
+}
+
+.WelContentBox h1 {
+    margin-bottom: 14px
+}
+
+section.WelComeSection-page {
+    height: 70vh;
+    padding-top: 65px
+}
+
+ul.sub-menu.third_sub_menu {
+    display: none;
+    transition: all .5s;
+    left: -101%
+}
+
+.our_menus .main_menu li li:hover ul.sub-menu.third_sub_menu {
+    display: block
+}
+
+body.page-id-607 .ChoosStep {
+    padding-bottom: 100px
+}
+
+form#booking #section-tabs li.current {
+    z-index: unset
+}
+
+.widget-content.ConSidWid p {
+    margin-bottom: 5px
+}
+
+.widget-content.ConSidWid p strong {
+    font-size: 18px
+}
+
+.Symkheading p {
+    font-size: 19px;
+    text-align: left
+}
+
+h1.villainner_heading {
+    font-size: 28px
+}
+
+button.nwcntct {
+    background: 0 0!important;
+    border: 2px solid #942424;
+    color: #942424;
+    margin: 0 auto;
+    border-radius: 5px;
+    width: 100%;
+    max-width: 114px;
+    display: block
+}
+
+.side_new {
+    background: #fff;
+    padding: 20px 0 0 0
+}
+
+.ReviwPage .Symkheading h1 {
+    margin-bottom: 16px
+}
+
+.ReviwPage .Symkheading h1 {
+    margin-bottom: 16px
+}
+
+.ReviewUl p {
+    font-size: 18px;
+    line-height: 12px;
+    margin-bottom: 19px;
+    margin-top: 20px
+}
+
+.Chos04 p {
+    margin-bottom: 0;
+    line-height: 22px
+}
+
+.Chospill {
+    margin-top: 15px
+}
+
+.SummryRw .SummryBox p {
+    margin-bottom: 7px
+}
+
+.page-id-5 .banner-slide .owl-item:nth-child(6) .item.banner_bg {
+    background-position: 45% 45%!important
+}
+
+.page-id-129 .banner-slide .owl-item:nth-child(6) .item.banner_bg {
+    background-position: 45% 10%!important
+}
+
+a.room_price strong {
+    color: #942424;
+    font-size: 14px;
+    display: block
+}
+
+.room_price {
+    border: 2px solid #942424;
+    padding: 0
+}
+
+.room_btn span {
+    margin-bottom: 5px;
+    display: block;
+    line-height: 15px;
+    color: #913f3f;
+    text-align: center
+}
+
+.room_btn input {
+    padding: 0!important;
+    text-align: center;
+    border: none!important;
+    background: #f8f8f8!important
+}
+
+.room_btn input.price_input {
+    color: #942424!important
+}
+
+.room_btn {
+    border: 2px solid #942424;
+    border-radius: 5px!important;
+    background: 0 0!important;
+    width: 100%;
+    padding: 3px 5px 0 6px;
+    font-size: 20px;
+    position: relative
+}
+
+button.room_btn a {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    opacity: 0;
+    font-size: 20px
+}
+
+button.room_btn:hover {
+    opacity: 1
+}
+
+p.review_para {
+    display: block;
+    width: 100%;
+    max-width: 760px;
+    margin: 0 auto;
+    line-height: 25px
+}
+
+.widget-content.ConSidWid p:first-child {
+    margin-bottom: 20px
+}
+
+.AddedCheck label span {
+    color: #942424;
+    font-weight: 100
+}
+
+.button_replace input {
+    font-size: 100;
+    font-weight: 100!important;
+    width: 100%
+}
+
+.button_replace {
+    float: right;
+    width: 100%;
+    max-width: 114px;
+    margin-top: 8px
+}
+
+label.terms_label {
+    font-weight: 400
+}
+
+.newcontinue {
+    float: right
+}
+
+.newcontinue input {
+    margin-bottom: 15px
+}
+
+button.pay_now {
+    padding: 6px 36px;
+    font-weight: 200;
+    color: #fff;
+    font-weight: 700
+}
+
+.country_cstm input {
+    height: 36px;
+    padding-left: 40px!important
+}
+
+.country_cstm .intl-tel-input .flag-dropdown {
+    top: 0
+}
+
+.contact .intl-tel-input .flag-dropdown {
+    top: 0!important
+}
+
+section.write_review {
+    padding-top: 70px;
+    background: #f6f6f6
+}
+
+.review-img {
+    height: 250px;
+    overflow: hidden
+}
+
+.review-img img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover
+}
+
+a.review_button {
+    width: 100%
+}
+
+.review-category {
+    margin-top: 25px
+}
+
+.category_main {
+    padding: 30px
+}
+
+.review-category h4 {
+    text-align: center
+}
+
+.review-category span {
+    color: #942424;
+    font-weight: 500;
+    font-size: 18px
+}
+
+h1.share-exp {
+    margin-bottom: 0
+}
+
+.cstm_mfootr {
+    font-style: italic;
+    font-size: 14px;
+    color: grey;
+    display: unset
+}
+
+h5.cstm_mtitle {
+    color: #942424!important;
+    font-size: 20px;
+    text-transform: capitalize;
+    font-weight: 200
+}
+
+.cstm_dialog {
+    max-width: 785px;
+    margin: 30px auto
+}
+
+button.info_btn {
+    background: 0 0!important;
+    border: none
+}
+
+.cstm_mcntnt {
+    background: #f3f3f3
+}
+
+.cstm_mbody {
+    font-size: 13px
+}
+
+button.close {
+    background: 0 0!important
+}
+
+span.cstm_spn {
+    font-size: 30px
+}
+
+button.btn.btn-primary.info_btn:focus {
+    box-shadow: unset
+}
+
+.modelxlmy h4 {
+    font-size: 23px;
+    color: #942424
+}
+
+.InfoBrde {
+    padding: 20px;
+    border-top: 1px solid #dadada
+}
+
+.room-block h2 {
+    font-size: 16px;
+    font-weight: 700
+}
+
+.infoSlide .owl-prev {
+    position: absolute;
+    top: 30%;
+    z-index: 99;
+    left: 0;
+    background: #b63131!important
+}
+
+.infoSlide .owl-next {
+    position: absolute;
+    top: 30%;
+    z-index: 99;
+    right: 0;
+    background: #b63131!important
+}
+
+.FldBoxImg {
+    position: relative
+}
+
+.FldBoxImg .info_btn {
+    position: absolute;
+    bottom: 16px;
+    right: 0
+}
+
+.ui-datepicker .weekend .ui-state-default {
+    background: #fea
+}
+
+.ui-datepicker-calendar td a[data-custom] {
+    position: relative;
+    padding-bottom: 10px
+}
+
+.ui-datepicker-calendar td span[data-custom] {
+    position: relative;
+    padding-bottom: 10px
+}
+
+.ui-datepicker-calendar td a[data-custom]::after {
+    content: ' ' attr(data-custom);
+    display: block;
+    font-size: small
+}
+
+.ui-datepicker-calendar td span[data-custom]::after {
+    content: ' ' attr(data-custom);
+    display: block;
+    font-size: small
+}
+
+.ui-datepicker-today span {
+    border: 2px solid #942424!important
+}
+
+ui-state-disabled.highlight span {
+    color: #bfbebe!important;
+    padding: 15px;
+    font-size: 14px
+}
+
+.button_replace input {
+    font-weight: 200
+}
+
+label.terms_label strong {
+    color: #942424
+}
+
+label.terms_label p {
+    color: #8c8d8c;
+    display: inline-block;
+    font-size: 18px;
+    padding-left: 18px
+}
+
+.contFrom button#contact-send {
+    font-weight: 500
+}
+
+.page-id-252 #menu-item-345 {
+    display: none
+}
+
+.page-id-279 #menu-item-345 {
+    display: none
+}
+
+.page-id-13 #menu-item-345 {
+    display: none
+}
+
+.page-id-141 #menu-item-345 {
+    display: none
+}
+
+.page-id-11 #menu-item-345 {
+    display: none
+}
+
+.page-id-20 #menu-item-345 {
+    display: none
+}
+
+.page-id-15 #menu-item-345 {
+    display: none
+}
+
+.TabHeading .mobiitem a {
+    color: grey!important
+}
+
+form#booking #section-tabs li.current span {
+    display: block
+}
+
+ul#section-tabs i.cstmcircl {
+    color: #bababa;
+    font-size: 36px;
+    display: block
+}
+
+.our_menus ul.mobiserch li {
+    display: inline-block
+}
+
+.our_menus ul.mobiserch li span {
+    font-size: 20px;
+    padding-right: 25px
+}
+
+.our_menus ul.mobiserch {
+    margin-bottom: 0
+}
+
+.our_menus ul.mobiserch {
+    display: none
+}
+
+.BannrGrup input#start_date {
+    background: 0 0;
+    z-index: 99;
+    cursor: pointer
+}
+
+.BannrGrup input#end_date {
+    background: 0 0;
+    z-index: 99;
+    cursor: pointer
+}
+
+.ui-state-highlight,
+.ui-widget-content .ui-state-highlight,
+.ui-widget-header .ui-state-highlight {
+    border: 2px solid #942424!important;
+    padding: 0 10px 16px 10px;
+    line-height: 48px
+}
+
+button.edit_extra {
+    padding: 8px;
+    font-size: 12px;
+    letter-spacing: .5px;
+    margin-bottom: 10px
+}
+
+.our_menus .current-menu-ancestor.current-menu-parent>.current-menu-item.current_page_item>a {
+    color: #942424!important
+}
+
+.PayFooter.text-center ul li:last-child a {
+    cursor: default
+}
+
+li#menu-item-801>ul,
+li#menu-item-802>ul {
+    top: 0
+}
+
+ul#menu-main-menu>li>i {
+    position: relative;
+    left: -10px
+}
+
+.intl-tel-input .country-list {
+    white-space: nowrap!important
+}
+
+.intl-tel-input .country-list {
+    z-index: 999999
+}
+
+.ui-button.ui-state-active:hover,
+.ui-button:active,
+.ui-state-active,
+.ui-widget-content .ui-state-active,
+.ui-widget-header .ui-state-active,
+a.ui-button:active {
+    border: 1px solid #942424!important;
+    background: #942424!important;
+    font-weight: 400;
+    color: #fff
+}
+
+.ui-datepicker {
+    width: 376px!important;
+    padding: .2em .2em 0;
+    display: none
+}
+
+td.ui-datepicker-unselectable span {
+    padding: 16px!important
+}
+
+a.ui-state-default {
+    font-weight: 700!important;
+    text-align: center!important;
+    line-height: 16px;
+    padding-bottom: 3px!important
+}
+
+.ply-ui {
+    font-family: Muli
+}
+
+.ply-ok {
+    width: 100px!important;
+    font-size: 16px!important;
+    padding: 6px 5px 7px 5px!important;
+    font-weight: 400!important;
+    border-radius: 5px!important
+}
+
+button.btn.btn-primary.info_btn {
+    text-transform: uppercase;
+    font-size: 13px;
+    float: right;
+    padding-right: 0;
+    padding-top: 3px
+}
+
+#fieldsets {
+    padding-top: 0
+}
+
+.check_availability_1 {
+    padding-bottom: 43px;
+    width: 100%
+}
+
+.title-dates.dtpExt {
+    padding-bottom: 30px
+}
+
+p.extra_guest_dropdown {
+    margin: 0
+}
+
+.checkItem.AddedCheck {
+    text-align: right
+}
+
+.SummryBox p.priceBox,
+p.sub_priceBox,
+p.total_price {
+    text-align: right!important
+}
+
+.checkItem.introAdChkNw .form-check-input {
+    color: #fff!important;
+    position: relative;
+    top: 2px;
+    width: 18px
+}
+
+ul.country-list>li>span {
+    position: inherit;
+    font-size: 14px
+}
+
+.mobi_bottom {
+    display: none;
+    margin: 0 -15px
+}
+
+.ConSidWid p a img {
+    position: relative;
+    top: -1px
+}
+
+.widget-content.ConSidWid p:last-child img {
+    width: 100%;
+    max-width: 42px;
+    padding-right: 2px;
+    margin-right: 6px
+}
+
+ul.sub-menu.third_sub_menu li i {
+    display: none
+}
+
+.PayFooter ul.nav-pay li a {
+    cursor: default
+}
+
+ul#menu-main-menu ul.sub-menu li i {
+    display: none
+}
+
+div#navbarSupportedContent .footer {
+    display: none
+}
+
+.select2-container--default .select2-selection--single {
+    margin: 0 -33px
+}
+
+.select2-container--default .select2-selection--single .select2-selection__arrow {
+    right: -24px!important
+}
+
+.click-new-hides.FirstEarly {
+    margin-top: 36px
+}
+
+.ui-state-highlight,
+.ui-widget-content .ui-state-highlight,
+.ui-widget-header .ui-state-highlight {
+    background: 0 0!important
+}
+
+button,
+button:focus {
+    outline: 0!important
+}
+
+ul.nav-social li:first-child img {
+    position: relative;
+    left: -2px
+}
+
+span.select2-dropdown.select2-dropdown--above {
+    min-width: 179px!important;
+    left: -33px!important
+}
+
+section.footer .footer_section .row>div:nth-child(1),
+section.footer .footer_section .row>div:nth-child(2),
+section.footer .footer_section .row>div:nth-child(3) {
+    position: relative;
+    right: -70px;
+    z-index: 99
+}
+
+.select2-container--default .select2-selection--single .select2-selection__rendered {
+    color: #444;
+    line-height: 25px!important
+}
+
+section.footer .footer_section .row>div:nth-child(1) .currency_selector.text-center {
+    left: -33px;
+    width: 100%;
+    max-width: 148px;
+    margin: 4px 0 4px 0
+}
+
+.PayFooter.text-center {
+    position: relative;
+    right: -21px
+}
+
+.bankttranS_logo {
+    right: -31px;
+    position: relative
+}
+
+.bankttranS_logo img:last-child {
+    right: -5px;
+    position: relative;
+    max-width: 48px
+}
+
+.widget-content.ConSidWid p:first-child strong {
+    font-size: 23px;
+    font-weight: bolder
+}
+
+.side_new {
+    position: relative
+}
+
+input.deleteDates {
+    background: 0 0!important;
+    border: 2px solid #942424!important;
+    color: #942424!important;
+    margin: 0 auto;
+    border-radius: 5px!important;
+    width: 100%;
+    max-width: 90px;
+    position: absolute;
+    right: -2px;
+    top: -45px;
+    font-size: 14px!important;
+    padding: 1px 5px!important;
+    font-weight: 400!important;
+    z-index: 99999;
+    cursor: pointer
+}
+
+ul#menu-main-menu li:nth-child(2)>ul>li:last-child>ul {
+    left: -100%
+}
+
+button.ply-ctrl.ply-ok.ply-ui {
+    box-shadow: none
+}
+
+h1.center_heading {
+    text-align: center
+}
+
+.widget-content.ConSidWid p:last-child img:nth-child(3) {
+    margin-right: 10px
+}
+
+.widget-content.ConSidWid p:last-child img:nth-child(2) {
+    margin-right: 7px
+}
+
+.contFrom .form-group {
+    position: relative
+}
+
+.wpcf7-form-control-wrap {
+    position: relative;
+    width: 100%;
+    display: inline-block
+}
+
+span.wpcf7-not-valid-tip {
+    color: red;
+    font-size: 1em;
+    font-weight: 400;
+    position: absolute;
+    right: 10px;
+    top: 12px;
+    left: inherit
+}
+
+ul#menu-main-menu ul.sub-menu>li>ul::after {
+    display: none
+}
+
+ul.sub-menu.third_sub_menu>li>ul {
+    top: 0
+}
+
+.contFrom .paylogo p {
+    margin-bottom: 4px;
+    margin-top: 3px
+}
+
+.contFrom .paylogo {
+    right: 40px;
+    position: relative
+}
+
+.pay_new {
+    text-align: right
+}
+
+.credit_optn p {
+    margin-bottom: 4px;
+    margin-top: 5px
+}
+
+.PayFooter.text-center.credit_optn {
+    position: relative;
+    right: -17px
+}
+
+.PayFooter.text-center.credit_optn ul li {
+    max-width: 42px
+}
+
+button.btn.SubBtn.BkNow {
+    margin-bottom: 0;
+    cursor: pointer
+}
+
+.SummryBox p.priceBox {
+    text-transform: uppercase
+}
+
+.contact.text-right .intl-tel-input .flag-dropdown.f16 {
+    display: none
+}
+
+select.selector.ftNselct.currency_select1 {
+    padding: 10px;
+    text-align: center;
+    max-width: 184px
+}
+
+.form-group.BannrGrup label {
+    display: block
+}
+
+.select2-container--default .select2-results>.select2-results__options {
+    max-height: 50px!important;
+    overflow-y: auto
+}
+
+div#ui-datepicker-div {
+    z-index: 999!important
+}
+
+a.ui-state-default.largeDiv {
+    padding: 18px!important
+}
+
+.wpcf7-not-valid-tip {
+    display: none
+}
+
+label.error {
+    color: #942424;
+    position: absolute;
+    top: 10px;
+    right: 7px
+}
+
+.sidebar_currency select.selector.ftNselct.currency_select1 {
+    text-align: left;
+    max-width: 100%
+}
+
+form#booking button.btn.SubBtn.BkNow {
+    float: unset
+}
+
+.footer_section .selectize-control {
+    position: relative;
+    width: 205px;
+    top: 5px;
+    left: -47px
+}
+
+p.TouchP {
+    display: none
+}
+
+.AddDisclick {
+    pointer-events: none
+}
+
+.n2skip {
+    border: none;
+    color: #fff;
+    padding: 5px 10px 6px 10px;
+    cursor: pointer;
+    font-family: Muli;
+    border-radius: 6px
+}
+
+.priceSection p {
+    font-size: 18px;
+    position: relative;
+    right: -35px;
+    top: 2px
+}
+
+.AddopenSelect.NwAdptn {
+    position: relative;
+    left: 12px;
+    top: 5px
+}
+
+span.lnr.lnr-users.toIn2 {
+    font-size: 20px;
+    top: 2px;
+    position: relative
+}
+
+.Snd2in input {
+    color: #fff
+}
+
+.PaFeldBox {
+    padding: 20px 13px;
+    text-align: center;
+    margin-left: 18px
+}
+
+.PaFeldBox a {
+    color: #942424;
+    text-transform: capitalize;
+    border: 1px solid #942424;
+    width: 100%;
+    max-width: 253px;
+    display: block;
+    padding: 10px;
+    text-transform: uppercase;
+    font-weight: 700
+}
+
+.selectize-dropdown-content {
+    max-height: 150px!important;
+    overflow-x: hidden;
+    overflow-y: auto
+}
+
+.footer_section .selectize-dropdown.currency_select.single.plugin-remove_button {
+    top: -150px!important
+}
+
+.side_new .selectize-control {
+    width: 100%;
+    margin: 0 auto;
+    text-align: center
+}
+
+div#total_rupees span {
+    width: 100%;
+    max-width: 194px;
+    margin: 0 auto
+}
+
+.PaFeldBox {
+    display: none
+}
+
+p.NewVilNN {
+    font-size: 19px;
+    margin-bottom: 3px
+}
+
+.clickdisble {
+    pointer-events: none
+}
+
+div.wpcf7-spam-blocked {
+    border: 2px solid #942424!important;
+    color: #942424
+}
+
+div.wpcf7-acceptance-missing,
+div.wpcf7-validation-errors {
+    border: 2px solid #942424!important;
+    color: #942424
+}
+
+.DollorTabHide.sidebar_currency {
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 17px;
+    margin-bottom: 15px;
+    text-align: center
+}
+
+.RusterImg {
+    position: relative;
+    background-size: cover!important;
+    background-position: center!important;
+    height: 250px;
+    display: flex;
+    background-attachment: fixed;
+    flex-direction: column;
+    justify-content: center
+}
+
+.RusterImg p {
+    color: #fff;
+    text-align: center;
+    font-size: 18px;
+    background: rgba(156, 156, 156, .5);
+    padding: 10px 55px 14px 55px;
+    display: inline-block!important;
+    max-width: 435px;
+    margin: 0 auto
+}
+
+.remvcontaFLuid .container-fluid {
+    padding: 0
+}
+
+.SecKrseyMr {
+    margin-top: 35px
+}
+
+.Vtext_section.NwVtxSct h4 {
+    text-align: center;
+    display: block;
+    margin-bottom: 10px;
+    font-weight: 700
+}
+
+.AgnHalf {
+    display: inline-block;
+    padding: 10px 10px;
+    width: 100%
+}
+
+.AgnHalf .btn.btn-cta {
+    width: 100%;
+    max-width: 209px;
+    max-width: 215px;
+    float: right;
+    margin-top: 10px;
+    padding: 12px;
+    font-size: 20px
+}
+
+.AgnHalf h6 {
+    color: #942424;
+    border: 1px solid #942424;
+    padding: 6px 50px;
+    display: inline-block;
+    width: 100%;
+    line-height: 21px;
+    max-width: 197px;
+    font-weight: 700;
+    border-radius: 3px;
+    text-align: center
+}
+
+ul.ContUlA {
+    padding: 10px 15px;
+    box-shadow: 0 0 2px 0 #ccc
+}
+
+i.down2rr {
+    position: absolute;
+    right: 7px;
+    top: 11px
+}
+
+.nav-content a {
+    line-height: 25px
+}
+
+.nav-content br {
+    display: none
+}
+
+.drop+.nav-content {
+    display: block;
+    background: #fff;
+    padding: 10px 21px
+}
+
+ul.ContUlA li {
+    line-height: 23px;
+    letter-spacing: .5px;
+    padding: 5px 3px;
+    margin-bottom: 10px;
+    position: relative
+}
+
+ul.ContUlA li a:hover {
+    color: #942424
+}
+
+.drop-item {
+    display: block;
+    position: relative
+}
+
+.nav-content {
+    margin-left: 0!important;
+    display: none;
+    flex-direction: column
+}
+
+.drop+.nav-content {
+    display: block
+}
+
+.nav-content a .drop-item {
+    margin-bottom: 2%
+}
+
+.ConSlideAgn {
+    width: 100%
+}
+
+.newcontinue.AgnNwCon {
+    float: none
+}
+
+.TabContactSide.NwtabCon22 button {
+    width: 100%;
+    max-width: unset;
+    margin: 0;
+    margin-top: 19px;
+    display: block;
+    cursor: pointer
+}
+
+.NwtabCon22 p {
+    display: none
+}
+
+.TabContactSide {
+    width: 100%;
+    background: #f7f7f7;
+    padding: 0 16px
+}
+
+.largeDivCal a {
+    padding: 18px!important
+}
+
+.vilaSrchSeclBk {
+    background: unset!important
+}
+
+.vilaSrchSeclBk .selectize-input {
+    padding: 10px 4px
+}
+
+.vilaSrchSeclBk .selector {
+    background: unset
+}
+
+.SubBtn.VilaSrchSubBtn {
+    padding: 0;
+    float: none
+}
+
+.BannrGrup.VilaSrchbnr {
+    width: 100%;
+    margin-left: 0
+}
+
+.BannrGrup.VilaSrchbnr span {
+    font-size: 19px
+}
+
+.NewVilaBedBtnBox {
+    margin-top: 13px;
+    margin-bottom: 12px
+}
+
+.SrchvilaPrice p {
+    color: #942424;
+    line-height: 19px;
+    border: 1px solid #942424;
+    padding: 2px 6px;
+    text-align: center;
+    font-size: 13px;
+    position: unset;
+    width: 100%
+}
+
+.SrchvilaPrice a {
+    background: #942424;
+    color: #fff!important;
+    padding: 8px 5px 9px;
+    display: block;
+    font-size: 14px;
+    text-align: center;
+    cursor: pointer;
+    margin-top: 3px
+}
+
+.pi-mainlistbtms h5 {
+    text-align: center;
+    margin-bottom: 15px;
+    text-align: center;
+    line-height: 0
+}
+
+.ForCalNewpi .form-group.BannrGrup input {
+    position: relative;
+    z-index: 99;
+    background: 0 0!important
+}
+
+.MainLocMap div#map {
+    min-height: 234px
+}
+
+.video_section div#map2 {
+    height: 305px
+}
+
+.SidebarFrom .TabContactSide {
+    padding: 0;
+    padding-left: 0
+}
+
+.Mapsection div#villaMap {
+    height: 450px
+}
+
+.side_new .selectize-control {
+    padding: 0 15px;
+    padding-left: 19px;
+    margin-top: 12px;
+    padding-top: 12px;
+    background: #fff
+}
+
+.PixBtnMr1 {
+    margin-bottom: 0!important
+}
+
+.pi-listingsearch.PiRemoMr {
+    margin-top: 20px
+}
+
+.page-id-17 .pi-listingsearch.PiRemoMr {
+    margin-top: 60px!important
+}
+
+.AgnForCm .paylogo {
+    text-align: center;
+    right: unset;
+    float: unset;
+    max-width: 145px;
+    margin: 1px auto;
+    width: 100%
+}
+
+.AgnForCm .bankttranS_logo img:last-child {
+    right: 0;
+    position: relative;
+    max-width: 45px
+}
+
+.AgnNwPayc button.pay_now {
+    border: none;
+    border-radius: 5px;
+    padding: 7px 36px
+}
+
+.AgnNwPayc .PayFooter.text-center.credit_optn {
+    right: unset;
+    text-align: center;
+    width: 100%;
+    max-width: 137px;
+    margin-left: 42px
+}
+
+.AgnPayDiv {
+    margin-top: -1px
+}
+
+a.drop-item.ContDltVila {
+    box-shadow: none;
+    border: none;
+    padding: 4px 10px 6px;
+    color: #fff;
+    text-transform: capitalize;
+    border-radius: 14px;
+    width: 100%;
+    max-width: 123px
+}
+
+.gm-ui-hover-effect {
+    display: none!important
+}
+
+.nav-content a {
+    line-height: 25px;
+    background: #fff;
+    padding: 4px 4px 4px 4px;
+    margin-bottom: 6px
+}
+
+.ContDltVila {
+    width: 100%;
+    max-width: 123px;
+    color: #fff;
+    text-transform: capitalize;
+    font-size: 15px;
+    border: none;
+    padding: 4px 10px 8px 10px;
+    border-radius: 15px
+}
+
+div.wpcf7-mail-sent-ok {
+    border: 2px solid grey!important;
+    color: grey;
+    padding: 5px 22px
+}
+
+.MainLocMap div#map {
+    min-height: 297px
+}
+
+.page-id-5 .ui-datepicker td a {
+    line-height: 48px
+}
+
+.page-id-5 div#ui-datepicker-div {
+    top: 60px!important
+}
+
+.page-id-17 .ui-datepicker td a {
+    line-height: 48px
+}
+
+.page-id-15 .ui-datepicker td a {
+    line-height: 48px
+}
+
+.page-id-5 input.deleteDates {
+    background: #fff!important
+}
+
+.PosAgRel {
+    position: relative
+}
+
+body.page-id-17 input.deleteDates {
+    background: #fff!important
+}
+
+input.deleteDates {
+    background: #fff!important
+}
+
+.page-id-356 .ui-datepicker td a {
+    line-height: 16px
+}
+
+.AllAvblityBox .ui-datepicker-inline.ui-datepicker {
+    width: 100%!important
+}
+
+.RusterImg .Rus2Chng {
+    max-width: 630px
+}
+
+.page-id-356 div#ui-datepicker-div {
+    position: fixed!important;
+    top: 115px!important;
+    position: fixed!important;
+    left: unset!important;
+    right: 7px!important
+}
+
+.page-id-758 div#ui-datepicker-div {
+    position: fixed!important;
+    top: 115px!important
+}
+
+.page-id-442 div#ui-datepicker-div {
+    position: fixed!important;
+    top: 115px!important
+}
+
+.page-id-594 div#ui-datepicker-div {
+    position: fixed!important;
+    top: 115px!important
+}
+
+.page-id-543 div#ui-datepicker-div {
+    position: fixed!important;
+    top: 115px!important
+}
+
+.page-id-680 div#ui-datepicker-div {
+    position: fixed!important;
+    top: 115px!important
+}
+
+.galleryDBox {
+    height: 205px
+}
+
+.galleryDBox img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover
+}
+
+.pi-topsearch.ForCalNewpi select.form-control {
+    padding-left: 10px;
+    cursor: pointer
+}
+
+.SrchvilaPrice a {
+    border-radius: 5px
+}
+
+.SrchvilaPrice p {
+    border-radius: .25rem;
+    text-transform: capitalize;
+    cursor: pointer
+}
+
+.pi-topsearch {
+    position: sticky!important;
+    position: -webkit-sticky;
+    position: -moz-sticky;
+    position: -ms-sticky;
+    position: -o-sticky;
+    top: 55px!important;
+    z-index: 99
+}
+
+.SrcRPadR {
+    padding-right: 4px
+}
+
+.SrcRPadL {
+    padding-left: 4px
+}
+
+div#map span {
+    color: #942424
+}
+
+div#map span.includes {
+    color: gray
+}
+
+.pi-mainmaplist .row .col-md-5 {
+    margin-top: 25px
+}
+
+ul#ul {
+    display: block;
+    position: absolute;
+    width: 100%;
+    z-index: 9;
+    border: 1px solid #ccc;
+    background-color: #fff;
+    -webkit-box-shadow: 0 3px 5px 0 rgba(0, 0, 0, .2);
+    box-shadow: 0 3px 5px 0 rgba(0, 0, 0, .2);
+    border-radius: 3px;
+    left: 105%;
+    max-width: 350px;
+    top: 0
+}
+
+div#available .ui-datepicker-multi .ui-datepicker-group table::after {
+    position: absolute;
+    right: 50%;
+    content: "";
+    top: 0;
+    background: #e9e9e9;
+    height: 100%;
+    width: 2px
+}
+
+ul.ContUlA li.dropDown {
+    width: 100%;
+    background: #f1f1f1;
+    padding: 7px;
+    display: block
+}
+
+ul.ContUlA li a i {
+    position: absolute;
+    right: 10px;
+    top: 15px;
+    font-weight: 700
+}
+
+div#fieldsets button.edit-nightsbtn {
+    border-radius: 6px;
+    font-family: Muli;
+    padding-bottom: 7px;
+    width: 100%;
+    max-width: 115px;
+    font-size: 15px;
+    text-transform: capitalize;
+    cursor: pointer
+}
+
+.SumrryPils.RmPilsStick {
+    position: unset!important
+}
+
+body.page-id-129 {
+    background: #f6f6f6
+}
+
+body.page-id-135 {
+    background: #f6f6f6
+}
+
+.pi-mainmaplist {
+    padding-top: 46px
+}
+
+.review-category h4 {
+    margin-bottom: 10px
+}
+
+.pi-mainlistimgs img {
+    cursor: pointer
+}
+
+.AgnHalf {
+    position: relative
+}
+
+button.HvrSymBkk {
+    position: absolute;
+    left: 10px;
+    right: 0;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    width: 100%;
+    max-width: 196px;
+    padding: 9px;
+    top: 10px;
+    font-size: 20px;
+    text-transform: capitalize;
+    color: #fff;
+    font-family: Muli;
+    text-decoration: underline;
+    transition: all .5s;
+    opacity: 0
+}
+
+.AgnHalf h6:hover button.HvrSymBkk {
+    opacity: 1;
+    background: #942424
+}
+
+.check_details_2 h2 {
+    padding-left: 23px;
+    padding: 8px 0 10px 27px
+}
+
+.checkbox_extra_checked {
+    color: #888
+}
+
+.contFrom button#contact-send {
+    border-radius: 6px
+}
+
+.AgnHalf.AGnhalfagn h6 {
+    padding: 3;
+    margin: 0
+}
+
+.AgnHalf.AGnhalfagn a.weagnh6 {
+    margin: 0;
+    background: #f6f6f6;
+    color: #942424!important;
+    font-size: 14px
+}
+
+a.btn.btn-cta.room_anchor.VilaAnchoreVt {
+    font-size: 13px
+}
+
+a.btn.btn-cta.room_anchor.VilaSrchSt {
+    margin-top: 0;
+    padding-top: 2px
+}
+
+.room_btn.roombtnMaxw {
+    max-width: 215px;
+    padding: 4px 8px 2px 8px;
+    margin-top: 10px
+}
+
+.custom-border-cls {
+    border-bottom: 1px solid rgba(0, 0, 0, .1);
+    margin-bottom: 50px;
+    padding-bottom: 30px
+}
+
+.tabGallery {
+    margin-bottom: 35px;
+    height: auto;
+    display: block
+}
+
+ul.OneUlC p {
+    margin-bottom: 0
+}
+
+section.faq_ins {
+    background: #f7f7f7;
+    padding-top: 17px
+}
+
+.my_wimin {
+    width: 100%;
+    margin: 0 auto;
+    border-radius: 3px
+}
+
+.client_logos {
+    position: relative;
+    display: block;
+    width: 100%;
+    padding: 60px 0
+}
+
+div#slider-carousel img {
+    width: 100%;
+    max-width: 126px;
+    background: #f1f1f1;
+    padding: 2px;
+    border-radius: 5px;
+    transition: all .5s
+}
+
+div#slider-carousel img:hover {
+    transform: scale(.9)
+}
+
+.midabt_set p {
+    font-size: 15px;
+    color: #585858;
+    letter-spacing: .5px;
+    margin: 0
+}
+
+ul.OneUlC p {
+    position: relative;
+    padding-left: 45px;
+    margin-bottom: 10px;
+    font-size: 13px
+}
+
+ul.OneUlC p svg {
+    height: 25px;
+    width: 25px
+}
+
+.card-header a {
+    font-size: 18px;
+    color: #171717;
+    font-weight: 700;
+    letter-spacing: .5px
+}
+
+.faq_ins {
+    background: #f7f7f7;
+    padding-bottom: 40px
+}
+
+.card-header {
+    margin-bottom: 15px
+}
+
+.faq_ins .card-body p {
+    font-size: 14px!important;
+    color: #8a8a8a!important;
+    letter-spacing: .5px;
+    margin-bottom: 4px
+}
+
+.faq_ins .card-body {
+    padding: 0;
+    padding-top: 12px;
+    padding-bottom: 12px
+}
+
+.faq_ins .accordion .card h5 {
+    font-size: 1rem;
+    font-weight: 400
+}
+
+.faq_ins .accordion .card h5 i {
+    color: #888;
+    font-weight: 700;
+    float: right;
+    font-size: 28px
+}
+
+.GaHeding h1 {
+    font-size: 17px;
+    text-align: center;
+    font-weight: 400;
+    padding: 12px 0;
+    color: #888;
+    text-transform: capitalize
+}
+
+.BediconGal {
+    width: 100%
+}
+
+.TAbULId {
+    border-bottom: 1px solid #e4e4e4;
+    padding-bottom: 4px
+}
+
+section.CustomTabNew {
+    position: sticky;
+    top: 70px;
+    z-index: 99;
+    background: #f7f7f7
+}
+
+.TAbULId ul {
+    margin: 0;
+    padding: 0
+}
+
+.TAbULId ul li {
+    display: inline-block;
+    margin: 0 auto;
+    text-align: center;
+    padding: 6px 15px 6px 16px
+}
+
+.TAbULId ul li a {
+    text-transform: uppercase;
+    color: #424242;
+    letter-spacing: .4px;
+    font-weight: 400;
+    font-size: 14px
+}
+
+ul.OneUlC li {
+    margin-bottom: 10px
+}
+
+ul.OneUlC li p img {
+    width: 100%;
+    max-width: 32px;
+    position: absolute;
+    left: 0;
+    top: 2px
+}
+
+.GAllBrdrBottom {
+    border-bottom: 1px solid rgba(0, 0, 0, .125)
+}
+
+.OutddorDiv {
+    padding-top: 30px
+}
+
+.CardImgIc {
+    width: 100%;
+    max-width: 25px;
+    margin-right: 10px
+}
+
+.checkbox_extra_array {
+    color: #888;
+    letter-spacing: .5px;
+    font-weight: 400
+}
+
+.gm-style .gm-style-iw-d {
+    overflow: auto!important;
+    padding: 12px
+}
+
+.gm-style .gm-style-iw-c {
+    padding: 0
+}
+
+.RateTCont h1 {
+    font-size: 18px;
+    font-weight: 700;
+    color: #888;
+    margin-bottom: 10px
+}
+
+.CloseRev a.btn-cta {
+    float: unset
+}
+
+.ContTabDetail {
+    padding: 30px 0
+}
+
+.ContTabDetail p {
+    background: #fff;
+    padding: 10px
+}
+
+.ContTabDetail h4 {
+    color: #942424;
+    text-align: center
+}
+
+p.OutImg2 img {
+    width: 100%;
+    max-width: 50px
+}
+
+div.card.carddesign {
+    background: #f7f7f7;
+    border-bottom: 0;
+    border-left: 0;
+    border-right: 0
+}
+
+.carddesign .card-header {
+    margin-bottom: 0;
+    border-bottom: 0;
+    background: 0 0;
+    padding: .75rem 0
+}
+
+.GalPAraT {
+    margin-bottom: 31px
+}
+
+.GalPAraT p {
+    padding: 10px;
+    background: #fff
+}
+
+ul.SemiUlLoc {
+    margin-top: 12px
+}
+
+.SemiUlLoc li {
+    color: #888;
+    margin-bottom: 5px;
+    font-size: 14px;
+    letter-spacing: .5px
+}
+
+.LoCPBol {
+    font-size: 16px;
+    font-weight: 700
+}
+
+.AllAvblityBox .col-md-12.mb_20 {
+    padding: 0
+}
+
+.SeasonTable th {
+    color: #888
+}
+
+.SeasonTable {
+    background: #fff
+}
+
+.RateTCont {
+    background: #fff;
+    padding: 15px
+}
+
+.CurTable {
+    width: 100%;
+    max-width: 221px;
+    float: right;
+    margin-bottom: 13px
+}
+
+ul.OneUlC li p svg {
+    position: absolute;
+    top: 0;
+    left: 0
+}
+
+.Tabgallbk2 {
+    background: #fff;
+    padding: 10px
+}
+
+.faq_ins .card-body .GaHeding p {
+    font-size: 12px!important;
+    margin-bottom: 4px;
+    line-height: 21px;
+    position: relative;
+    padding-left: 27px
+}
+
+.AlRCapti {
+    text-transform: uppercase
+}
+
+button.room_btn.RoomBtn223 a {
+    font-size: 19px
+}
+
+button.room_btn.RoomBtn223 {
+    border-radius: 7px
+}
+
+.videoBkBtn.btnvidbkrad a {
+    border-radius: 7px
+}
+
+.roombtnMaxw.rombrrad {
+    border-radius: 7px
+}
+
+.btn-cta.rombrrad2a {
+    border-radius: 5px;
+    padding: 5px 8px 7px 8px!important
+}
+
+.SrchvilaPrice a:hover {
+    text-decoration: underline
+}
+
+.SrchvilaPrice.scrchRad {
+    border-radius: 7px
+}
+
+.AgnHalf.AGnhalfagn.AgnHaf221 {
+    padding: 0
+}
+
+.AgnHalf.agnhalf22Pad {
+    padding: 0
+}
+
+.page-id-17 .selectize-dropdown.selector.ftNselct.currency_select11.single.plugin-remove_button {
+    background: #fff
+}
+
+.galActCont h1 {
+    font-size: 24px;
+    color: #942424;
+    text-transform: uppercase;
+    margin-bottom: 2px
+}
+
+.galActCont {
+    text-align: center;
+    margin-bottom: 25px
+}
+
+.galActCont p {
+    font-size: 20px
+}
+
+.TryEvrPa {
+    font-size: 24px;
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 40px
+}
+
+.faq_ins svg {
+    position: relative;
+    top: 9px;
+    margin-right: 10px;
+    height: 28px;
+    width: 28px
+}
+
+.room_btn.vilRmbtnrad {
+    border-radius: 10px
+}
+
+.BediconGal p img {
+    max-width: 21px;
+    position: absolute;
+    left: 0
+}
+
+.Tabgallbk2 svg {
+    position: absolute;
+    top: -1px;
+    margin-right: 10px;
+    height: 22px;
+    width: 22px;
+    left: 0
+}
+
+.pad106 {
+    padding-left: 7px;
+    padding-right: 7px
+}
+
+.mrrow30 {
+    margin-top: 16px
+}
+
+.btnnxt22 {
+    border-radius: 7px
+}
+
+.video_section iframe {
+    height: 305px
+}
+
+.page-id-17 .pi-morefilter {
+    padding: 0 42px 0 0
+}
+
+.page-id-17 .pi-mainmaplist {
+    padding-top: 5px
+}
+
+.check_available1 {
+    font-size: 16px!important;
+    line-height: 26px!important;
+    padding-top: 11px!important;
+    padding-left: 5px
+}
+
+@media screen and (min-width:767px) {
+    .page-id-17 .pi-listingsearch .col-md-2 {
+        -ms-flex: 0 0 15.666667%;
+        flex: 1 0 13.666667%;
+        max-width: 14.666667%;
+        line-height: 0
+    }
+    .page-id-17 .pi-listingsearch .col-md-1 {
+        -ms-flex: 1 0 13.333333%;
+        flex: 1 0 13.333333%;
+        max-width: 15.333333%;
+        line-height: 0
+    }
+    .page-id-17 .pi-listingsearch .col-md-1:last-child {
+        -ms-flex: 1 0 12.333333%;
+        flex: 1 0 12.333333%;
+        max-width: 15.333333%;
+        line-height: 0
+    }
+}
+
+.Symkheading h1 {
+    padding-bottom: 20px
+}
+
+p.bootem-disscbsn {
+    text-align: center;
+    font-size: 19px;
+    padding-bottom: 20px
+}
+
+.youtube-video-single {
+    background: #fff;
+    padding-top: 10px;
+    padding-left: 15px!important;
+    padding-right: 15px!important;
+    margin-bottom: 35px
+}
+
+.youtube-video-single:nth-child(2n) {
+    padding-right: 8px!important
+}
+
+.galleryvideo iframe {
+    height: 195px
+}
+
+.galleryvideo p {
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 22px;
+    color: #942424
+}
+
+.GalleryDetail {
+    padding: 0 8px
+}
+
+.Newgallery {
+    padding-right: 15px!important;
+    padding-left: 15px!important
+}
+
+.page-id-135 .video_section iframe {
+    height: 294px
+}
+
+button.room_btn.roombtnMaxw.rombrrad span {
+    line-height: 12px;
+    font-size: 13px
+}
+
+.page-id-129 .video_section iframe {
+    height: 295px
+}
+
+button.btn.SubBtn.VilaSrchSubBtn {
+    cursor: pointer
+}
+
+.page-id-17 .selectize-control.single .selectize-input:after {
+    right: 5px;
+    margin-top: -2px
+}
+
+.page-id-17 .selectize-control.plugin-remove_button [data-value] {
+    position: relative;
+    padding-right: 5px!important
+}
+
+.video_section div#map1 {
+    height: 507px
+}
+
+button.room_btn.vilRmbtnrad span {
+    margin-bottom: 4px;
+    font-size: 13px;
+    line-height: 12px
+}
+
+.SrchvilaPrice.scrchRad a {
+    padding: 9px 5px 9px
+}
+
+.pi-mainlist hr {
+    background: rgba(0, 0, 0, .1)
+}
+
+.our_menus .main_menu li a {
+    margin: 0 7px
+}
+
+a.seemenu {
+    color: #942424;
+    font-size: 17px
+}
+
+div#map .gm-style-iw-d {
+    max-height: inherit!important;
+    overflow: visible!important
+}
+
+div#map .gm-style-iw.gm-style-iw-c {
+    max-height: inherit!important
+}
+
+.check_available1 {
+    color: #ca0202!important;
+    white-space: nowrap!important
+}
+
+.panel-heading {
+    padding: 0;
+    border: 0
+}
+
+.panel-title>a,
+.panel-title>a:active {
+    display: block;
+    font-size: 16px;
+    text-transform: uppercase;
+    text-decoration: none
+}
+
+ul#pills-tab li a p:after {
+    transition: all .5s;
+    content: "\f107";
+    display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: 21px;
+    color: #888;
+    position: relative;
+    right: -10px;
+    top: 3px
+}
+
+ul#pills-tab li a.nav-link.active.show p:after {
+    color: #942424;
+    -webkit-transform: rotate(180deg);
+    -moz-transform: rotate(180deg);
+    transform: rotate(180deg)
+}
+
+h4.panel-title>a {
+    padding: 0
+}
+
+section.mainpage-secvice_werapper h4.panel-title p {
+    text-transform: uppercase;
+    margin-bottom: 8px;
+    font-weight: 400;
+    font-size: 16px
+}
+
+section.mainpage-secvice_werapper .panel-body p {
+    line-height: 22px;
+    font-size: 16px;
+    text-align: left;
+    margin-bottom: 0
+}
+
+section.mainpage-secvice_werapper .panel-body small {
+    color: #888
+}
+
+img.imggsecvice {
+    position: relative;
+    top: -2px
+}
+
+section.mainpage-secvice_werapper h4.panel-title p img {
+    margin-right: 8px
+}
+
+section.mainpage-secvice_werapper {
+    padding: 25px 0 15px;
+    text-align: center
+}
+
+section.SemiyakSec.Semif8Bk {
+    display: none
+}
+
+.contant-pergrap p {
+    text-align: left;
+    margin: 0 auto;
+    margin-left: 50px
+}
+
+ul#pills-tab li a p {
+    text-transform: capitalize
+}
+
+ul#pills-tab li a p img {
+    margin-right: 10px
+}
+
+ul#pills-tab li a.nav-link.active.show p {
+    color: #942424
+}
+
+ul#pills-tab li a {
+    padding-bottom: 0
+}
+
+.loader p {
+    font-size: 19px;
+    padding-left: 5px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    text-align: center;
+    top: 62%
+}
+
+.GalleryDetail .row {
+    padding: 0 15px
+}
+
+p.bootem-disscbsn {
+    margin-bottom: 0
+}
+
+div#accordion .panel-title p:after {
+    transition: all .5s;
+    content: "\f107";
+    display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: 21px;
+    color: #888;
+    position: relative;
+    right: -10px;
+    top: 3px
+}
+
+h4.panel-title.active p {
+    color: #942424
+}
+
+h4.panel-title.active p:after {
+    color: #942424!important;
+    -webkit-transform: rotate(180deg);
+    -moz-transform: rotate(180deg);
+    transform: rotate(180deg)
+}
+
+.fancybox-is-open .fancybox-stage {
+    background: gray
+}
+
+span.villasnames {
+    color: #ca0202;
+    text-transform: uppercase
+}
+
+.page-id-17 .pi-mainlistbtms p {
+    display: block;
+    text-align: center;
+    color: grey;
+    font-size: 14px;
+    padding-top: 4px;
+    padding-bottom: 1px;
+    text-transform: uppercase
+}
+
+p.texxts {
+    display: none!important
+}
+
+.owl-theme .owl-controls .owl-page {
+    display: inline-block!important
+}
+
+.owl-theme .owl-dots .owl-dot {
+    display: inline-block!important;
+    zoom: 1
+}
+
+.banner-slide.owl-carousel .owl-dots {
+    display: inline-block!important
+}
+
+.loader {
+    display: none;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 9999;
+    background: url(https://www.mingguvillas.com/new/wp-content/uploads/2019/12/loader.gif) 50% 50% no-repeat #f9f9f9;
+}
+
+section.mainpage-secvice_werapper h4.panel-title p:hover {
+    color: #94246f
+}
+
+div#accordion .panel-title p:hover:after {
+    color: #94246f
+}
+
+body.page.page-id-5 .video_section div#map1 {
+    height: 305px
+}
+    .col-md-4.col-sm-4.col-12.Newgallery.single_glry_img {
+        -ms-flex: 0 0 19.803333%;
+        flex: 0 0 19.803333%;
+        max-width: 19.803333%;
+            /*background: #f7f7f7;*/
+    }
+
+    .col-md-4.col-sm-4.col-12.custom-cls-gallery.single_glry_img {
+        -ms-flex: 0 0 19.803333%;
+        flex: 0 0 19.803333%;
+        max-width: 19.803333%;
+            /*background: #f7f7f7;*/
+    }
+    .row.PicRowBk {
+    background: #fff;
+    padding: 0;
+}
+.row.PicRowBk .single_glry_img  {
+    /* padding-left: 30px; */
+    background: #fff;
+    padding-top: 10px;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+    padding-right: 6px!important;
+    padding-left: 6px!important;
+    /* padding-right: 0; */
+}
+.single_glry_img .galleryDBox {
+    margin-bottom: 10px;
+}
+    .single_glry_img .galleryDBox {
+        height: 160px;
+    }
+

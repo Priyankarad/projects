@@ -1,0 +1,14 @@
+Options +FollowSymLinks
+ 
+RewriteEngine On
+RewriteRule ^([a-z]+)$ /index.php?language=$1
+RewriteRule ^([a-z]+)/p/([a-zA-Z-]+)$ /page.php?language=$1&slug=$2
+RewriteRule ^([a-z]+)/getloan/([0-9a-z]+)$ /getloan.php?language=$1&step=$2
+RewriteRule ^([a-z]+)/merchant/([0-9a-z]+)$ /merchant.php?language=$1&step=$2
+RewriteRule ^([a-z]+)/invest$ /invest.php?language=$1
+RewriteRule ^([a-z]+)/signin$ /signin.php?language=$1
+RewriteRule ^([a-z]+)/accountcreated$ /accountcreated.php?language=$1
+RewriteRule ^([a-z]+)/contact$ /contact.php?language=$1 [L,QSA]
+RewriteRule ^([a-z]+)/myaccount/opportunities$ /myaccount_opportunities.php?language=$1
+RewriteRule ^([a-z]+)/myaccount/investments$ /myaccount_investments.php?language=$1
+RewriteRule ^([a-z]+)/logout$ /logout.php?language=$1

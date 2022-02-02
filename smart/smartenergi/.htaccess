@@ -1,0 +1,104 @@
+Options +FollowSymLinks
+
+RewriteCond %{HTTP_HOST} !^www\.
+RewriteRule ^(.*)$ http://www.%{HTTP_HOST}/$1 [R=301,L]
+
+RewriteEngine On
+RewriteRule ^([a-z]+)$ /index.php?language=$1
+
+RewriteRule ^([a-z]+)/p/([a-zA-Z-]+)$ /page.php?language=$1&slug=$2
+
+RewriteRule ^([a-z]+)/getloan/([0-9a-z]+)$ /getloan.php?language=$1&step=$2 [QSA]
+
+RewriteRule ^([a-z]+)/merchant$ /merchant.php?language=$1
+
+RewriteRule ^([a-z]+)/invest$ /invest.php?language=$1 [QSA]
+
+RewriteRule ^([a-z]+)/signin$ /signin.php?language=$1
+
+RewriteRule ^([a-z]+)/accountcreated$ /accountcreated.php?language=$1
+
+RewriteRule ^([a-z]+)/investaccountcreated$ /investaccountcreated.php?language=$1
+
+RewriteRule ^([a-z]+)/contact$ /contact.php?language=$1 [L,QSA]
+
+RewriteRule ^([a-z]+)/myaccount/opportunities$ /myaccount_opportunities.php?language=$1
+
+RewriteRule ^([a-z]+)/myaccount/investments$ /myaccount_investments.php?language=$1
+
+RewriteRule ^([a-z]+)/myaccount/merchant/customerloans$ /customer_loans.php?language=$1
+
+RewriteRule ^([a-z]+)/myaccount/merchant/myprofile$ /my_account_merchant.php?language=$1 [L,QSA]
+
+RewriteRule ^([a-z]+)/myaccount/borrower/myloans$ /my_loans.php?language=$1
+
+RewriteRule ^([a-z]+)/myaccount/borrower/myprofile$ /my_account_borrower.php?language=$1 [L,QSA]
+
+RewriteRule ^([a-z]+)/myaccount/borrower/mypayments$ /my_payments.php?language=$1 [L,QSA]
+
+RewriteRule ^([a-z]+)/logout$ /logout.php?language=$1
+
+RewriteRule ^([a-z]+)/merchant-signin$ /merchantsignin.php?language=$1
+
+#RewriteRule ^([a-z]+)/merchant-signup$ /merchantsignup.php?language=$1
+
+RewriteRule ^([a-z]+)/merchant-signup/([0-9a-z]+)$ /merchantsignup.php?language=$1&step=$2 [QSA]
+
+RewriteRule ^([a-z]+)/verify-email/merchant/([0-9a-z]+)$ /verifyemailmerchant.php?language=$1&identifier=$2 [QSA]
+
+RewriteRule ^([a-z]+)/verify-email/lender/([0-9a-z]+)$ /verifyemaillender.php?language=$1&identifier=$2 [QSA]
+
+RewriteRule ^([a-z]+)/merchant-signup/verify/email$ /emailverificationsent.php?language=$1
+
+RewriteRule ^([a-z]+)/updatebankdetails/([0-9a-z]+)$ /updatebankdetails.php?language=$1&identifier=$2 [QSA]
+
+RewriteRule ^([a-z]+)/merchant-forgot-password$ /merchantforgotpassword.php?language=$1 [QSA]
+
+RewriteRule ^([a-z]+)/resetpassword/merchant/([0-9a-z]+)$ /merchantresetpassword.php?language=$1&identifier=$2 [QSA]
+
+RewriteRule ^([a-z]+)/borrower-forgot-password$ /borrowerforgotpassword.php?language=$1 [QSA]
+
+RewriteRule ^([a-z]+)/resetpassword/borrower/([0-9a-z]+)$ /borrowerresetpassword.php?language=$1&identifier=$2 [QSA]
+
+RewriteRule ^([a-z]+)/borrower-signin$ /borrowersignin.php?language=$1
+
+RewriteRule ^([a-z]+)/howitworks$ /howitworks.php?language=$1
+
+RewriteRule ^([a-z]+)/loanlistings$ /loanlistings.php?language=$1
+
+RewriteRule ^([a-z]+)/sector/([0-9a-z]+)$ /sector.php?language=$1&identifier=$2
+
+RewriteRule ^([a-z]+)/invest/([0-9a-z]+)$ /invest.php?language=$1&identifier=$2 [QSA]
+
+RewriteRule ^([a-z]+)/dashboard$ /investordashboard.php?language=$1 [QSA]
+
+RewriteRule ^([a-z]+)/investor_registration$ /investor_registration.php?language=$1 [QSA]
+
+RewriteRule ^([a-z]+)/investment_history$ /investpast.php?language=$1 [QSA]
+
+RewriteRule ^([a-z]+)/loaninfo$ /homeimprovementloan.php?language=$1 [QSA]
+
+RewriteRule ^([a-z]+)/investor/withdrawal$ /investor_withdrawal.php?language=$1 [QSA]
+
+RewriteRule ^([a-z]+)/investor/deposit$ /investor_deposit.php?language=$1 [QSA]
+
+RewriteRule ^([a-z]+)/investor/transaction$ /investor_transaction.php?language=$1 [QSA]
+
+RewriteRule ^([a-z]+)/merchant/withdrawal$ /merchant_withdrawal.php?language=$1
+
+RewriteRule ^([a-z]+)/merchant/transaction$ /merchant_transactions.php?language=$1 [QSA]
+
+RewriteRule ^([a-z]+)/investor/myaccount$ /myaccount_investor.php?language=$1 [QSA]
+
+RewriteRule ^([a-z]+)/investor-forgot-password$ /investorforgotpassword.php?language=$1 [QSA]
+
+RewriteRule ^([a-z]+)/resetpassword/investor/([0-9a-z]+)$ /investorresetpassword.php?language=$1&identifier=$2 [QSA]
+
+RewriteRule ^([a-z]+)/getloanbymerchant/([0-9a-z]+)$ /getloanbymerchant.php?language=$1&step=$2 [QSA]
+
+RewriteRule ^([a-z]+)/loanremainingdata/([0-9a-z]+)/([0-9a-z]+)$ /loanremainingdata.php?language=$1&loanid=$2&step=$3 [QSA]
+
+RewriteRule ^([a-z]+)/basicinfo$ /basic_info.php?language=$1 [QSA]
+RewriteRule ^([a-z]+)/investor/faq$ /investor_faq.php?language=$1 [QSA]
+
+RewriteRule ^([a-z]+)/instantorpopup/instantorresponse$ /instantorpopup/InstantorDecryptExample.php?language=$1 [QSA]

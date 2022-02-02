@@ -1,0 +1,9 @@
+Options +FollowSymLinks
+ 
+RewriteEngine On
+RewriteRule ^([a-z]+)$ /index.php?language=$1
+RewriteRule ^([a-z]+)/p/([a-zA-Z-]+)$ /page.php?language=$1&slug=$2
+RewriteRule ^([a-z]+)/blog$ /blog.php?language=$1
+RewriteRule ^([a-z]+)/blog/archive/(.*)$ /blog.php?language=$1&archive=$2
+RewriteRule ^([a-z]+)/blog/([a-zA-Z-]+)$ /blogdetails.php?language=$1&postslug=$2
+RewriteRule ^([a-z]+)/contact$ /contact.php?language=$1 [L,QSA]

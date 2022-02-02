@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="150px" height="150px" viewBox="0 0 150 150" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 41 (35326) - http://www.bohemiancoding.com/sketch -->
+    <title>Earn</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Investor_LandingPage_Philina_V2-Copy-3" transform="translate(-941.000000, -1277.000000)">
+            <g id="How_It_Works_By_Phi" transform="translate(-20.000000, 875.000000)">
+                <g id="Earn" transform="translate(963.000000, 404.000000)">
+                    <path d="M73,146 C113.316787,146 146,113.316787 146,73 C146,32.6832133 113.316787,0 73,0 C32.6832133,0 0,32.6832133 0,73 C0,113.316787 32.6832133,146 73,146 Z" id="Oval-3" stroke="#FE7800" stroke-width="3" fill="#FE7800"></path>
+                    <g id="Group-706" transform="translate(34.000000, 33.000000)" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <path d="M7,56.0652174 L7,65.8478261" id="Stroke-4056"></path>
+                        <polygon id="Stroke-4057" points="43.0217391 46.2826087 72.3695652 46.2826087 72.3695652 36.5 43.0217391 36.5"></polygon>
+                        <path d="M49,36.5 L49,46.2826087" id="Stroke-4058"></path>
+                        <path d="M65,36.5 L65,46.2826087" id="Stroke-4059"></path>
+                        <polygon id="Stroke-4060" points="39.7608696 56.0652174 69.1086957 56.0652174 69.1086957 46.2826087 39.7608696 46.2826087"></polygon>
+                        <path d="M46,46.2826087 L46,56.0652174" id="Stroke-4061"></path>
+                        <path d="M62,46.2826087 L62,56.0652174" id="Stroke-4062"></path>
+                        <polygon id="Stroke-4063" points="43.0217391 65.8478261 72.3695652 65.8478261 72.3695652 56.0652174 43.0217391 56.0652174"></polygon>
+                        <path d="M49,56.0652174 L49,65.8478261" id="Stroke-4064"></path>
+                        <path d="M65,56.0652174 L65,65.8478261" id="Stroke-4065"></path>
+                        <polygon id="Stroke-4066" points="39.7608696 75.6304348 69.1086957 75.6304348 69.1086957 65.8478261 39.7608696 65.8478261"></polygon>
+                        <path d="M46,65.8478261 L46,75.6304348" id="Stroke-4067"></path>
+                        <path d="M62,65.8478261 L62,75.6304348" id="Stroke-4068"></path>
+                        <polygon id="Stroke-4069" points="0.630434783 65.8478261 29.9782609 65.8478261 29.9782609 56.0652174 0.630434783 56.0652174"></polygon>
+                        <path d="M23,56.0652174 L23,65.8478261" id="Stroke-4070"></path>
+                        <polygon id="Stroke-4071" points="3.89130435 75.6304348 33.2391304 75.6304348 33.2391304 65.8478261 3.89130435 65.8478261"></polygon>
+                        <path d="M26,65.8478261 L26,75.6304348" id="Stroke-4072"></path>
+                        <path d="M10,65.8478261 L10,75.6304348" id="Stroke-4073"></path>
+                        <polyline id="Stroke-4074" points="2.26086957 43.0217391 31.6086957 13.673913 47.9130435 26.7173913 72.3695652 0.630434783"></polyline>
+                        <polyline id="Stroke-4075" points="49.5434783 0.630434783 72.3695652 0.630434783 72.3695652 21.826087"></polyline>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

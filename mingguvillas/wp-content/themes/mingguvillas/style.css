@@ -1,0 +1,143 @@
+/***
+
+Theme name:Mingguvillas
+*****/
+
+.GalleryPageSection.pd90 {
+    background: #f7f7f7;
+}
+.Newgallery {
+   /* padding-left: 30px;*/
+    background: #fff;
+    padding-top: 30px;
+    margin-bottom: 35px;
+    padding-bottom: 0px;
+    /*padding-right: 0;*/
+}
+.GalleryDetail > .row > .Newgallery:nth-child(8),.GalleryDetail > .row > .Newgallery:nth-child(11) {
+    padding-right: 28px;
+}
+.custom-cls-gallery {
+    padding-top: 30px;
+    background: #fff;
+    margin-bottom: 35px;
+    /*padding-left: 30px;
+    padding-right: 0px;*/
+}
+.GalleryDetail > .row > .custom-cls-gallery:nth-child(3),.GalleryDetail > .row > .custom-cls-gallery:nth-child(6),.GalleryDetail > .row > .custom-cls-gallery:last-child {
+    padding-right: 30px;
+}
+.youtube-video-single {
+    background: #fff;
+    padding-top: 30px;
+    padding-left: 30px;
+    padding-right: 0px;
+    margin-bottom: 35px;
+}
+.youtube-video-single:nth-child(2n) {
+    padding-right: 30px;
+}
+@media only screen and (max-width: 767px) {
+	.check_available1 {
+    text-align: center;
+    display: block !important;
+}
+	.our_menus .main_menu li a {
+    position: relative;
+    z-index: 3;
+}
+body .check_available1 {
+    margin-bottom: 20px !important;
+    top: 0px;
+}  
+ul#menu-main-menu > li > i {
+    z-index: 1;
+}
+body ul#menu-main-menu ul.sub-menu li i {
+    position: relative;
+    top: -30px;
+    left: -10px;
+}
+.sub-menu.third_sub_menu > li a {
+    display: inline-block;
+    width: 100%;
+    padding-bottom: 0px !important;
+    padding-top: 0px !important;
+}
+.sub-menu.third_sub_menu > li > i {
+    top: -19px !important;
+}
+body .our_menus .main_menu li a {
+    z-index: 3;
+    position: relative;
+}
+	.mobiserch > li {
+    margin-right: 11px;
+}
+body .custom-cls-gallery {
+    padding-left: 0px;
+}
+ul#ul {
+    position: static !important;
+}
+.galActCont h1 {
+    font-size: 20px;
+}
+.GalleryDetail > .row > .custom-cls-gallery:nth-child(3), .GalleryDetail > .row > .custom-cls-gallery:nth-child(6), .GalleryDetail > .row > .custom-cls-gallery:last-child {
+    padding-right: 0px;
+}
+body .galleryDBox {
+    height: auto;
+    padding-bottom: 0px;
+    margin-bottom: 10px;
+}
+body .Newgallery {
+    padding-left: 0px;
+    padding-top: 0px;
+}
+.GalleryDetail > .row > .Newgallery:nth-child(8), .GalleryDetail > .row > .Newgallery:nth-child(11) {
+    padding-right: 0px;
+}
+.youtube-video-single {
+    padding-left: 0px;
+    padding-top: 0px;
+}
+.youtube-video-single:nth-child(2n) {
+    padding-right: 0px;
+}
+body .galActCont {
+    margin-bottom: 14px;
+}
+}
+
+@media only screen and (max-width: 991px) and (min-width: 768px) {
+.galActCont h1 {
+    font-size: 18px;
+}	
+ul#ul {
+    position: static !important;
+}
+.check_available1 {
+    margin-bottom: 20px !important;
+    top: 0px;
+}
+}
+
+.our_menus .main_menu li a {
+    cursor: pointer !important;
+}
+
+p.ifmpmrr {
+margin-bottom: 0;
+}
+.Vinner_text h4 a {
+color: #942424;
+}
+.check_available1 {
+    color: #942424;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 13px;
+    line-height: 17px !important;
+    display: inline-block;
+}
